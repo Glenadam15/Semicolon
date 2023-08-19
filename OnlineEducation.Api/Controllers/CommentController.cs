@@ -9,16 +9,16 @@ namespace OnlineEducation.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
-	public class TestController : BaseController
+	public class CommentController : BaseController
 	{
-		public TestController(RepositoryWrapper repo, IMemoryCache cache) : base(repo, cache)
+		public CommentController(RepositoryWrapper repo, IMemoryCache cache) : base(repo, cache)
 		{
 		}
 
-		[HttpGet("GetAllTests")]
-		public dynamic GetAllTests()
+		[HttpGet("GetAllComments")]
+		public dynamic GetAllComments()
 		{
-			List<Test> items = repo.TestRepository.FindAll().ToList<Test>();
+			List<Comment> items = repo.CommentRepository.FindAll().ToList<Comment>();
 			return new
 			{
 				success = true,

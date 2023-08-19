@@ -13,3 +13,18 @@ C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEduc
 C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\refint\OnlineEducation.Repository.dll
 C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.pdb
 C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\ref\OnlineEducation.Repository.dll
+D:\Fork\Semicolon\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Repository.deps.json
+D:\Fork\Semicolon\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Repository.dll
+D:\Fork\Semicolon\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Repository.pdb
+D:\Fork\Semicolon\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Model.dll
+D:\Fork\Semicolon\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Model.pdb
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.csproj.AssemblyReference.cache
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.AssemblyInfoInputs.cache
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.AssemblyInfo.cs
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.csproj.CoreCompileInputs.cache
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.csproj.CopyComplete
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.dll
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\refint\OnlineEducation.Repository.dll
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.pdb
+D:\Fork\Semicolon\OnlineEducation.Repository\obj\Debug\net7.0\ref\OnlineEducation.Repository.dll

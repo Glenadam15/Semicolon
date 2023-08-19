@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿
 using Microsoft.EntityFrameworkCore;
 using OnlineEducation.Model;
 
@@ -12,17 +12,10 @@ public class LessonRepository : RepositoryBase<Lesson>
 
     public List<Lesson> LessonByCourceId(int courceId)
     {
-	    var courceLessons = RepositoryContext.CourceLessons.Where(x=>x.CourceId == courceId);
-        List<Lesson> lessons = new List<Lesson>();
-        foreach (var cl in courceLessons)
-        {
-	         var lesson = RepositoryContext.Lessons.SingleOrDefault(x => x.Id == cl.LessonId);
-
-	         if (lesson != null)
-	         {
-		         lessons.Add(lesson);
-	         }
-        }
-        return lessons;
-    }
+	    List<Lesson> items = (from l in RepositoryContext.Lessons
+		    join c in RepositoryContext.CourceLessons on l.Id equals c.LessonId
+		    where c.CourceId == courceId
+		    select l).ToList<Lesson>();
+	    return items;
+	}
 }

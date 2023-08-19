@@ -10,3 +10,15 @@ C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEduc
 C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\refint\OnlineEducation.Model.dll
 C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.pdb
 C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\ref\OnlineEducation.Model.dll
+D:\Fork\Semicolon\OnlineEducation.Model\bin\Debug\net7.0\OnlineEducation.Model.deps.json
+D:\Fork\Semicolon\OnlineEducation.Model\bin\Debug\net7.0\OnlineEducation.Model.dll
+D:\Fork\Semicolon\OnlineEducation.Model\bin\Debug\net7.0\OnlineEducation.Model.pdb
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.csproj.AssemblyReference.cache
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.AssemblyInfoInputs.cache
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.AssemblyInfo.cs
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.csproj.CoreCompileInputs.cache
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.dll
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\refint\OnlineEducation.Model.dll
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.pdb
+D:\Fork\Semicolon\OnlineEducation.Model\obj\Debug\net7.0\ref\OnlineEducation.Model.dll

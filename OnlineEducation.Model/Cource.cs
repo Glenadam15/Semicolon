@@ -13,9 +13,9 @@ public class Cource
     public Cource()
     {
         Tests = new HashSet<Test>();
-        Lessons = new HashSet<Lesson>();
+        CourceLessons = new HashSet<CourceLesson>();
     }
 
     public virtual ICollection<Test> Tests { get; set; }
-    public virtual ICollection<Lesson> Lessons { get; set; }
+    public virtual ICollection<CourceLesson> CourceLessons { get; set; }
 }
