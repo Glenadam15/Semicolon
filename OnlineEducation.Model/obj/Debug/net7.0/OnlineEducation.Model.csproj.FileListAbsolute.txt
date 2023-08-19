@@ -1,0 +1,12 @@
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\bin\Debug\net7.0\OnlineEducation.Model.deps.json
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\bin\Debug\net7.0\OnlineEducation.Model.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\bin\Debug\net7.0\OnlineEducation.Model.pdb
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.csproj.AssemblyReference.cache
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.AssemblyInfoInputs.cache
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.AssemblyInfo.cs
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.csproj.CoreCompileInputs.cache
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\refint\OnlineEducation.Model.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\OnlineEducation.Model.pdb
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Model\obj\Debug\net7.0\ref\OnlineEducation.Model.dll

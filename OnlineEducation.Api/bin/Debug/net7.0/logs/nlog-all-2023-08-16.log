@@ -1,0 +1,405 @@
+2023-08-16 21:41:20.1642||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 21:41:20.2607||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 21:41:20.2607||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 21:41:20.2607||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 21:41:20.2994||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - - 
+2023-08-16 21:41:20.5000||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - - - 200 - text/html;charset=utf-8 201.9760ms 
+2023-08-16 21:41:20.5577||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - 
+2023-08-16 21:41:20.6358||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.0295ms 
+2023-08-16 21:41:25.2836||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/api/Category/GetAllCategories - - 
+2023-08-16 21:41:25.2836||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 21:41:25.2972||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 21:41:25.4550||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 155.4639ms 
+2023-08-16 21:41:25.4550||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 21:41:25.4550||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.TypeLoadException: Method 'get_AdHocMapper' in type 'Microsoft.EntityFrameworkCore.Storage.Internal.RelationalDatabaseFacadeDependencies' from assembly 'Microsoft.EntityFrameworkCore.Relational, Version=7.0.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkRelationalServicesBuilder.TryAddCoreServices()
+   at Microsoft.Extensions.DependencyInjection.SqlServerServiceCollectionExtensions.AddEntityFrameworkSqlServer(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at OnlineEducation.Repository.RepositoryContext..ctor(DbContextOptions options) in C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\RepositoryContext.cs:line 8
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-08-16 21:41:25.4654||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api)' 
+2023-08-16 21:41:25.4654||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HandleErrorDevelopment", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleErrorDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment) on controller OnlineEducation.Controllers.ErrorController (OnlineEducation.Api). 
+2023-08-16 21:41:25.4804||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2023-08-16 21:41:25.4804||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api) in 13.8898ms 
+2023-08-16 21:41:25.4804||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api)' 
+2023-08-16 21:41:25.4804||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/api/Category/GetAllCategories - - - 500 - application/problem+json;+charset=utf-8 201.6699ms 
+2023-08-16 21:42:06.9220||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44307/api/User/GetUsers application/json 8 
+2023-08-16 21:42:06.9220||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 21:42:06.9220||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.UserController.GetUsers (OnlineEducation.Api)' 
+2023-08-16 21:42:06.9220||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsers", controller = "User"}. Executing controller action with signature System.Object GetUsers(System.Object) on controller OnlineEducation.Controllers.UserController (OnlineEducation.Api). 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.UserController.GetUsers (OnlineEducation.Api) in 13.7707ms 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.UserController.GetUsers (OnlineEducation.Api)' 
+2023-08-16 21:42:06.9420||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.TypeLoadException: Method 'get_AdHocMapper' in type 'Microsoft.EntityFrameworkCore.Storage.Internal.RelationalDatabaseFacadeDependencies' from assembly 'Microsoft.EntityFrameworkCore.Relational, Version=7.0.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkRelationalServicesBuilder.TryAddCoreServices()
+   at Microsoft.Extensions.DependencyInjection.SqlServerServiceCollectionExtensions.AddEntityFrameworkSqlServer(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at OnlineEducation.Repository.RepositoryContext..ctor(DbContextOptions options) in C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\RepositoryContext.cs:line 8
+   at InvokeStub_RepositoryContext..ctor(Object, Object, IntPtr*)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method8(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api)' 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HandleErrorDevelopment", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleErrorDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment) on controller OnlineEducation.Controllers.ErrorController (OnlineEducation.Api). 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api) in 1.5838ms 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api)' 
+2023-08-16 21:42:06.9420||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44307/api/User/GetUsers application/json 8 - 500 - application/problem+json;+charset=utf-8 23.9557ms 
+2023-08-16 21:52:11.0753||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 21:52:11.1587||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 21:52:11.1587||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 21:52:11.1587||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 21:52:11.1830||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - - 
+2023-08-16 21:52:11.3409||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - - - 200 - text/html;charset=utf-8 158.9768ms 
+2023-08-16 21:52:11.4061||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - 
+2023-08-16 21:52:11.4658||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 59.6710ms 
+2023-08-16 21:52:15.0110||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/api/Category/GetAllCategories - - 
+2023-08-16 21:52:15.0110||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 21:52:15.0110||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 21:52:15.1593||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 133.5949ms 
+2023-08-16 21:52:15.1593||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 21:52:15.1593||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.TypeLoadException: Method 'get_AdHocMapper' in type 'Microsoft.EntityFrameworkCore.Storage.Internal.RelationalDatabaseFacadeDependencies' from assembly 'Microsoft.EntityFrameworkCore.Relational, Version=7.0.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkRelationalServicesBuilder.TryAddCoreServices()
+   at Microsoft.Extensions.DependencyInjection.SqlServerServiceCollectionExtensions.AddEntityFrameworkSqlServer(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at OnlineEducation.Repository.RepositoryContext..ctor(DbContextOptions options) in C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\RepositoryContext.cs:line 8
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-08-16 21:52:15.1692||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api)' 
+2023-08-16 21:52:15.1692||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HandleErrorDevelopment", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleErrorDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment) on controller OnlineEducation.Controllers.ErrorController (OnlineEducation.Api). 
+2023-08-16 21:52:15.1839||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2023-08-16 21:52:15.1839||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api) in 13.7725ms 
+2023-08-16 21:52:15.1839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.ErrorController.HandleErrorDevelopment (OnlineEducation.Api)' 
+2023-08-16 21:52:15.1839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/api/Category/GetAllCategories - - - 500 - application/problem+json;+charset=utf-8 177.4612ms 
+2023-08-16 21:59:38.5464||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 21:59:38.6361||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 21:59:38.6361||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 21:59:38.6361||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 21:59:38.6549||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - - 
+2023-08-16 21:59:38.8145||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - - - 200 - text/html;charset=utf-8 160.6450ms 
+2023-08-16 21:59:38.8908||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - 
+2023-08-16 21:59:38.9522||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 61.3817ms 
+2023-08-16 22:36:09.0014||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 22:36:09.1216||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 22:36:09.1216||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 22:36:09.1216||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 22:36:09.1216||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 22:36:09.1216||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 22:36:09.6189||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 22:36:09.8369||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 219.0894ms 
+2023-08-16 22:36:09.8747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 22:36:09.8747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 6.3976ms 
+2023-08-16 22:36:09.8747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 22:36:09.9305||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.5277ms 
+2023-08-16 22:36:09.9801||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 22:36:10.0327||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 52.3750ms 
+2023-08-16 22:37:22.5224||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 61 
+2023-08-16 22:37:22.5298||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 22:37:22.5298||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-16 22:37:22.5427||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-16 22:44:56.2092||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 22:44:56.3244||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 22:44:56.3244||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 22:44:56.3244||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 22:44:56.3244||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 22:44:56.3244||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 22:44:56.8594||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 22:44:57.0827||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 224.3450ms 
+2023-08-16 22:44:57.0827||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 22:44:57.0827||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 22:44:57.0966||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.2926ms 
+2023-08-16 22:44:57.1174||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.1392ms 
+2023-08-16 22:44:57.1468||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 22:44:57.2061||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 59.2899ms 
+2023-08-16 22:46:35.0578||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 60 
+2023-08-16 22:46:35.0578||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 22:46:35.0578||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-16 22:46:35.0793||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-16 22:52:51.8302||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 22:52:51.9546||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 22:52:51.9546||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 22:52:51.9546||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 22:52:51.9546||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 22:52:51.9546||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 22:52:52.5122||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 22:52:52.7354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 22:52:52.7354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 22:52:52.7354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 224.5780ms 
+2023-08-16 22:52:52.7457||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.2625ms 
+2023-08-16 22:52:52.7680||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.5825ms 
+2023-08-16 22:52:52.8017||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 22:52:52.8654||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.6943ms 
+2023-08-16 22:52:59.8796||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 60 
+2023-08-16 22:52:59.8796||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 22:52:59.8851||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-16 22:52:59.8851||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-16 22:53:00.8966||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Email], [t].[EmailIsValid], [t].[EmailValidationDate], [t].[IsActive], [t].[Password], [t].[RegistrationDate], [t].[RoleId], [t].[UpdateDate], [t].[Username]
+FROM [tblUser] AS [t]
+WHERE 0 = 1 
+2023-08-16 22:53:00.9165||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-16 22:53:00.9222||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api) in 1025.0963ms 
+2023-08-16 22:53:00.9222||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-16 22:53:00.9222||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 60 - 200 - application/json;+charset=utf-8 1048.2935ms 
+2023-08-16 22:53:22.1287||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 61 
+2023-08-16 22:53:22.1287||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 22:53:22.1287||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-16 22:53:22.1287||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-16 22:53:22.1716||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Email], [t].[EmailIsValid], [t].[EmailValidationDate], [t].[IsActive], [t].[Password], [t].[RegistrationDate], [t].[RoleId], [t].[UpdateDate], [t].[Username]
+FROM [tblUser] AS [t]
+WHERE [t].[Username] = @__username_0 AND [t].[Password] = @__password_1 
+2023-08-16 22:53:22.1716||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__item_RoleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [tblRole] AS [t]
+WHERE [t].[Id] = @__item_RoleId_0 
+2023-08-16 22:53:22.2658||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-16 22:53:22.2658||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api) in 136.7434ms 
+2023-08-16 22:53:22.2658||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-16 22:53:22.2658||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 61 - 200 - application/json;+charset=utf-8 138.9317ms 
+2023-08-16 22:53:35.0644||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-16 22:53:35.0644||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 22:53:35.0644||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 22:53:35.1067||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-16 22:53:35.1067||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-16 22:53:35.1067||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 44.5464ms 
+2023-08-16 22:53:35.1067||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 22:53:35.1067||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories - - - 200 - application/json;+charset=utf-8 47.1409ms 
+2023-08-16 22:55:00.7636||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 22:55:00.8797||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 22:55:00.8797||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 22:55:00.8797||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 22:55:00.8797||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 22:55:00.8797||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 22:55:01.4933||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 22:55:01.7251||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 22:55:01.7251||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 22:55:01.7251||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 234.0723ms 
+2023-08-16 22:55:01.7371||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.7998ms 
+2023-08-16 22:55:01.7574||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.2217ms 
+2023-08-16 22:55:01.7938||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 22:55:01.8588||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.0406ms 
+2023-08-16 22:55:05.8411||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-16 22:55:05.8411||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 22:55:05.8411||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 22:55:06.6263||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-16 22:55:06.6452||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-16 22:55:06.6549||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 801.1877ms 
+2023-08-16 22:55:06.6549||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 22:55:06.6549||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories - - - 200 - application/json;+charset=utf-8 818.9647ms 
+2023-08-16 22:56:03.0361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Category/Save application/json 15 
+2023-08-16 22:56:03.0361||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 22:56:03.0423||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.Save (OnlineEducation.Api)' 
+2023-08-16 22:56:03.0423||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Save", controller = "Category"}. Executing controller action with signature System.Object Save(System.Object) on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 22:56:03.0748||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2023-08-16 22:56:03.0748||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.Save (OnlineEducation.Api) in 28.9897ms 
+2023-08-16 22:56:03.0748||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.Save (OnlineEducation.Api)' 
+2023-08-16 22:56:03.0748||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7068/api/Category/Save application/json 15 - 400 - application/problem+json;+charset=utf-8 40.8175ms 
+2023-08-16 22:56:21.1717||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Category/Save application/json 19 
+2023-08-16 22:56:21.1717||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 22:56:21.1717||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.Save (OnlineEducation.Api)' 
+2023-08-16 22:56:21.1717||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Save", controller = "Category"}. Executing controller action with signature System.Object Save(System.Object) on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 23:01:06.2770||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 23:01:06.3919||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 23:01:06.3919||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 23:01:06.3919||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 23:01:06.3919||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 23:01:06.3919||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 23:01:06.8772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 23:01:07.1284||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 23:01:07.1284||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 23:01:07.1284||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 252.7511ms 
+2023-08-16 23:01:07.1420||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.6089ms 
+2023-08-16 23:01:07.1647||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.3245ms 
+2023-08-16 23:01:07.1991||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 23:01:07.2771||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.9946ms 
+2023-08-16 23:01:39.6250||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Category/Save application/json 31 
+2023-08-16 23:01:39.6250||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 23:01:39.6250||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.Save (OnlineEducation.Api)' 
+2023-08-16 23:01:39.6436||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Save", controller = "Category"}. Executing controller action with signature System.Object Save(System.Object) on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 23:01:40.4842||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [tblCategory] SET [Name] = @p0
+OUTPUT 1
+WHERE [Id] = @p1; 
+2023-08-16 23:01:40.5108||ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'OnlineEducation.Repository.RepositoryContext'.
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnly(Int32 commandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess) Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnly(Int32 commandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-08-16 23:05:51.6019||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 23:05:51.7396||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 23:05:51.7396||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 23:05:51.7396||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 23:05:51.7396||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 23:05:51.7396||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 23:05:52.6928||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 23:05:52.9177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 23:05:52.9177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 23:05:52.9177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 227.4889ms 
+2023-08-16 23:05:52.9177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.0855ms 
+2023-08-16 23:05:52.9502||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.4160ms 
+2023-08-16 23:05:52.9843||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 23:05:53.0433||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 59.0134ms 
+2023-08-16 23:05:57.2377||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-16 23:05:57.2377||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 23:05:57.2486||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-16 23:05:58.0241||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-16 23:05:58.0430||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-16 23:05:58.0430||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 801.8286ms 
+2023-08-16 23:05:58.0430||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-16 23:05:58.0576||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories - - - 200 - application/json;+charset=utf-8 819.9612ms 
+2023-08-16 23:06:30.5008||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/User/GetUsers application/json 60 
+2023-08-16 23:06:30.5008||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-16 23:06:30.5008||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.UserController.GetUsers (OnlineEducation.Api)' 
+2023-08-16 23:06:30.5008||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsers", controller = "User"}. Executing controller action with signature System.Object GetUsers(System.Object) on controller OnlineEducation.Controllers.UserController (OnlineEducation.Api). 
+2023-08-16 23:06:30.6515||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Email], [t].[EmailIsValid], [t].[EmailValidationDate], [t].[IsActive], [t].[Password], [t].[RegistrationDate], [t].[RoleId], [t].[UpdateDate], [t].[Username]
+FROM [tblUser] AS [t]
+WHERE [t].[Username] = @__username_0 AND [t].[Password] = @__password_1 
+2023-08-16 23:06:30.6552||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.User, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-16 23:06:30.6685||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.UserController.GetUsers (OnlineEducation.Api) in 159.1409ms 
+2023-08-16 23:06:30.6685||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.UserController.GetUsers (OnlineEducation.Api)' 
+2023-08-16 23:06:30.6685||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7068/api/User/GetUsers application/json 60 - 200 - application/json;+charset=utf-8 168.1852ms 
+2023-08-16 23:51:12.0289||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-16 23:51:12.1614||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-16 23:51:12.1614||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-16 23:51:12.1614||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-16 23:51:12.1614||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-16 23:51:12.1614||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-16 23:51:12.7507||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-16 23:51:13.0310||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 281.4290ms 
+2023-08-16 23:51:13.0310||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-16 23:51:13.0310||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-16 23:51:13.0467||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.7417ms 
+2023-08-16 23:51:13.0867||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.7629ms 
+2023-08-16 23:51:13.1148||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-16 23:51:13.1794||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.5062ms 

@@ -1,0 +1,15 @@
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Repository.deps.json
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Repository.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Repository.pdb
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Model.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\bin\Debug\net7.0\OnlineEducation.Model.pdb
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.csproj.AssemblyReference.cache
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.AssemblyInfoInputs.cache
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.AssemblyInfo.cs
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.csproj.CoreCompileInputs.cache
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.csproj.CopyComplete
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\refint\OnlineEducation.Repository.dll
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\OnlineEducation.Repository.pdb
+C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Repository\obj\Debug\net7.0\ref\OnlineEducation.Repository.dll

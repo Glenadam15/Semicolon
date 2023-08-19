@@ -1,0 +1,48 @@
+2023-08-17 00:21:26.7715||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-17 00:21:26.8806||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-17 00:21:26.8806||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-17 00:21:26.8806||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-17 00:21:26.8806||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-17 00:21:26.8806||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-17 00:21:27.5873||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-17 00:21:27.8178||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 231.3458ms 
+2023-08-17 00:21:27.8301||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-17 00:21:27.8301||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-17 00:21:27.8428||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.6308ms 
+2023-08-17 00:21:27.8638||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.6920ms 
+2023-08-17 00:21:27.8950||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-17 00:21:27.9470||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 52.0320ms 
+2023-08-17 01:07:03.8156||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-17 01:07:03.9453||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-17 01:07:03.9453||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-17 01:07:03.9453||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-17 01:07:03.9453||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-17 01:07:03.9453||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-17 01:07:04.8207||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-17 01:07:05.0198||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-17 01:07:05.0198||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-17 01:07:05.0198||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 200.6155ms 
+2023-08-17 01:07:05.0327||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.8576ms 
+2023-08-17 01:07:05.0546||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7609ms 
+2023-08-17 01:07:05.0894||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-17 01:07:05.1452||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.7574ms 
+2023-08-17 01:50:32.3069||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-17 01:50:32.4050||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-17 01:50:32.4050||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-17 01:50:32.4050||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\s_utk\OneDrive\Desktop\Ahlatçı\Vektörel Bilişim\Projeler\OnlineEducation\OnlineEducation.Api 
+2023-08-17 01:50:32.4319||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - - 
+2023-08-17 01:50:32.6132||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - - - 200 - text/html;charset=utf-8 182.3344ms 
+2023-08-17 01:50:32.6734||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - 
+2023-08-17 01:50:32.7354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 61.9911ms 
+2023-08-17 01:54:14.3075||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44307/api/Role/GetAllRoles - - 
+2023-08-17 01:54:14.3486||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-17 01:54:14.3550||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-17 01:54:14.9590||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) - Validation state: Valid 
+2023-08-17 01:54:15.4014||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-17 01:54:15.4305||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 469.0947ms. 
+2023-08-17 01:54:15.4362||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-17 01:54:15.4626||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 1105.3837ms 
+2023-08-17 01:54:15.4626||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-17 01:54:15.4703||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44307/api/Role/GetAllRoles - - - 200 - application/json;+charset=utf-8 1163.2696ms 
