@@ -551,11 +551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s_utk\\OneDrive\\Desktop\\Ahlatçı\\Vektörel Bilişim\\Projeler\\OnlineEducation\\OnlineEducation.Model\\OnlineEducation.Model.csproj",
+      "projectUniqueName": "D:\\Fork\\Semicolon\\OnlineEducation.Model\\OnlineEducation.Model.csproj",
       "projectName": "OnlineEducation.Model",
-      "projectPath": "C:\\Users\\s_utk\\OneDrive\\Desktop\\Ahlatçı\\Vektörel Bilişim\\Projeler\\OnlineEducation\\OnlineEducation.Model\\OnlineEducation.Model.csproj",
+      "projectPath": "D:\\Fork\\Semicolon\\OnlineEducation.Model\\OnlineEducation.Model.csproj",
       "packagesPath": "C:\\Users\\s_utk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s_utk\\OneDrive\\Desktop\\Ahlatçı\\Vektörel Bilişim\\Projeler\\OnlineEducation\\OnlineEducation.Model\\obj\\",
+      "outputPath": "D:\\Fork\\Semicolon\\OnlineEducation.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

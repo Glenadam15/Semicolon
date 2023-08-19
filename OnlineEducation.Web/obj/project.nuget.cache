@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EzK0GH4JPl/efz6ktzLsMbzEb0TxXeJWHkNfZfHmL5JKHo0GQAgsWfDPnk4DOZ2Qyz4NosQx+A/nuJAHWBcWYg==",
+  "dgSpecHash": "tQdIJSR0uDeX/oCifSSFNd7KY+JHVrNAE5ay1jdX/aY+nfA/8Hrb9KsxynYrRRvtVbsQnYV/NiY9QSr5qKssBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s_utk\\OneDrive\\Desktop\\Ahlatçı\\Vektörel Bilişim\\Projeler\\OnlineEducation\\OnlineEducation.Web\\OnlineEducation.Web.csproj",
+  "projectFilePath": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\OnlineEducation.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s_utk\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\s_utk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cSyAQAGDgUT5i9HNUZn55c9XPM14WNV1J5Qra6q7dx+ONkwkN+BeSGc9tspt5YXu07AkDx2KuytW0wRkRC6eag==",
+  "dgSpecHash": "opREg9ojHrHcZ0kDzU+3/TabcifED3YKZGmAoTk7d6i99Kkrql/WOoxS6GvWrwUjJ4Z/mGRabhdOP8yT7bxhWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s_utk\\OneDrive\\Desktop\\Ahlatçı\\Vektörel Bilişim\\Projeler\\OnlineEducation\\OnlineEducation.Repository\\OnlineEducation.Repository.csproj",
+  "projectFilePath": "D:\\Fork\\Semicolon\\OnlineEducation.Repository\\OnlineEducation.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s_utk\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\s_utk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

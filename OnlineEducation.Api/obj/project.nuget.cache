@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcsF8A9+RKlEv2DdQWTMGIBMW2g95NySrfOdQnJOX2XDGEFBRSWaQuL/EkS1rX802pmx2irZT75X/I2vKlhzcw==",
+  "dgSpecHash": "Y5V+Wg6OikDYuQlV1k2zojoym+WMWzl4l0BvE38nKQpPcy1Db9nJb4yah8aUjHsgJVd5PgHetBw6yAYD628p3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s_utk\\OneDrive\\Desktop\\Ahlatçı\\Vektörel Bilişim\\Projeler\\OnlineEducation\\OnlineEducation.Api\\OnlineEducation.Api.csproj",
+  "projectFilePath": "D:\\Fork\\Semicolon\\OnlineEducation.Api\\OnlineEducation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s_utk\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\s_utk\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
