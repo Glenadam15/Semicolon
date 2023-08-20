@@ -16,16 +16,32 @@ namespace OnlineEducation.Controllers
         [HttpGet("GetAllCources")]
         public dynamic GetAllCources()
         {
-	        List<Cource> items = repo.CourceRepository.FindAll().ToList<Cource>();
-	        return new
+	        List<Cource> items;
+
+			if (!cache.TryGetValue("GetAllCources", out items))
+			{
+				items = repo.CourceRepository.FindAll().ToList<Cource>();
+				cache.Set("GetAllCources", items, DateTimeOffset.UtcNow.AddSeconds(300));
+			}
+			return new
 	        {
 		        success = true,
 		        data = items
 	        };
         }
 
+        //[Authorize(Roles = "Admin,Instructor")]
+        [HttpDelete("{id}")]
+        public dynamic Delete(int id)
+        {
+	        repo.CourceRepository.Delete(id);
+	        return new
+	        {
+		        success = true
+	        };
+        }
 
-        //[Authorize(Roles ="Admin, Instructor")]
+        //[Authorize(Roles = "Admin,Instructor")]
         [HttpPost("Save")]
         public dynamic Save([FromBody] dynamic model)
         {
@@ -35,46 +51,30 @@ namespace OnlineEducation.Controllers
 	        {
 		        Id = json.Id,
 		        Name = json.Name,
-		        CategoryId = json.CategoryId,
-		        Description = json.Description,
+				CategoryId = json.CategoryId,
+		        Description = json.Description
 	        };
 
 	        if (item.Id > 0)
 		        repo.CourceRepository.Update(item);
 	        else
 	        {
-				repo.CourceRepository.Create(item);
-			}
+		        foreach (var courceId in json.Id)
+		        {
+			        item.CourceLessons.Add(new CourceLesson() { CourceId = courceId });
+		        }
+		        repo.CourceRepository.Create(item);
+	        }
 
 	        repo.SaveChanges();
 
-	        cache.Remove("GetAllCources");
-
 	        return new
 	        {
 		        success = true
 	        };
         }
 
-        //[Authorize(Roles = "Admin, Instructor")]
-        [HttpDelete("Delete")]
-        public dynamic Delete(int id)
-        {
-	        if (id <= 0)
-	        {
-		        return new
-		        {
-			        success = false,
-			        message = "Invalid id"
-		        };
-	        }
 
-	        repo.CourceRepository.CourceDelete(id);
-	        return new
-	        {
-		        success = true
-	        };
-        }
 
 	}
 }

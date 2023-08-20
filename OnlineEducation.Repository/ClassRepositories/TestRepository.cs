@@ -1,4 +1,5 @@
-﻿using OnlineEducation.Model;
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineEducation.Model;
 
 namespace OnlineEducation.Repository;
 
@@ -8,4 +9,5 @@ public class TestRepository : RepositoryBase<Test>
     {
         
     }
+    
 }

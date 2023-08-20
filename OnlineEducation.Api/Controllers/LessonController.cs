@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
+using Newtonsoft.Json.Linq;
 using OnlineEducation.Model;
 using OnlineEducation.Repository;
+using static OnlineEducation.Model.Enums;
 
 namespace OnlineEducation.Controllers
 {
@@ -14,7 +17,7 @@ namespace OnlineEducation.Controllers
 		}
 
 		[HttpGet("Lessons/{courceId}")]
-		public dynamic Lesson(int courceId)
+		public dynamic Lessons(int courceId)
 		{
 			List<Lesson> lesson = repo.LessonRepository.LessonByCourceId(courceId);
 
@@ -22,6 +25,49 @@ namespace OnlineEducation.Controllers
 			{
 				success = true,
 				data = lesson
+			};
+		}
+
+		//[Authorize(Roles = "Admin,Instructor")]
+		[HttpDelete("{id}")]
+		public dynamic Delete(int id)
+		{
+			repo.LessonRepository.Delete(id);
+			return new
+			{
+				success = true
+			};
+		}
+
+		//[Authorize(Roles = "Admin,Instructor")]
+		[HttpPost("Save")]
+		public dynamic Save([FromBody] dynamic model)
+		{
+			dynamic json = JObject.Parse(model.GetRawText());
+
+			Lesson item = new Lesson()
+			{
+				Id = json.Id,
+				Name = json.Name,
+				Description = json.Description
+			};
+
+			if (item.Id > 0)
+				repo.LessonRepository.Update(item);
+			else
+			{
+				foreach (var lessonId in json.Id)
+				{
+					item.CourceLessons.Add(new CourceLesson() { LessonId = lessonId });
+				}
+				repo.LessonRepository.Create(item);
+			}
+
+			repo.SaveChanges();
+
+			return new
+			{
+				success = true
 			};
 		}
 

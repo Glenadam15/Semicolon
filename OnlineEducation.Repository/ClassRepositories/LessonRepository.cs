@@ -18,4 +18,11 @@ public class LessonRepository : RepositoryBase<Lesson>
 		    select l).ToList<Lesson>();
 	    return items;
 	}
+
+    public void Delete(int lessonId)
+    {
+	    // Delete From tblesson Where Id={lessonId}
+	    RepositoryContext.CourceLessons.Where( c=> c.LessonId == lessonId).ExecuteDelete();
+	    RepositoryContext.Lessons.Where(l => l.Id == lessonId).ExecuteDelete();
+    }
 }

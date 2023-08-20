@@ -10,9 +10,10 @@ public class CourceRepository : RepositoryBase<Cource>
         
     }
 
-    public void CourceDelete(int courceid)
+    public void Delete(int courceId)
     {
-	    RepositoryContext.Categories.Where(c => c.Id == courceid).ExecuteDelete();
-
-	}
+	    // Delete From tbCource Where Id={CourceId}
+	    RepositoryContext.CourceLessons.Where(c => c.CourceId == courceId).ExecuteDelete();
+	    RepositoryContext.Cources.Where(x => x.Id == courceId).ExecuteDelete();
+    }
 }

@@ -15,8 +15,8 @@ namespace OnlineEducation.Controllers
 		{
 		}
 
-		[HttpGet("GetAllTests")]
-		public dynamic GetAllTests()
+		[HttpGet("AllTests")]
+		public dynamic AllTests()
 		{
 			List<Test> items = repo.TestRepository.FindAll().ToList<Test>();
 			return new
@@ -25,5 +25,17 @@ namespace OnlineEducation.Controllers
 				data = items
 			};
 		}
+
+		[HttpGet("{courceId}")]
+		public dynamic Get(int courceId)
+		{
+			List<Test> item = repo.TestRepository.FindByCondition(a => a.CourceId == courceId).ToList<Test>();
+			return new
+			{
+				success = true,
+				data = item
+			};
+		}
+
 	}
 }

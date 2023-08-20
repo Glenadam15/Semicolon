@@ -1128,3 +1128,27 @@ WHERE [t0].[CourceId] = @__courceId_0
 2023-08-19 23:53:20.4065||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.LessonController.Lesson (OnlineEducation.Api) in 34.2906ms 
 2023-08-19 23:53:20.4065||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.LessonController.Lesson (OnlineEducation.Api)' 
 2023-08-19 23:53:20.4065||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Lesson/Lessons/6 - - - 200 - application/json;+charset=utf-8 35.3883ms 
+2023-08-19 23:59:42.2078||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-19 23:59:42.3210||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-19 23:59:42.3210||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-19 23:59:42.3210||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-19 23:59:42.3210||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-19 23:59:42.3210||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-19 23:59:43.0896||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-19 23:59:43.2989||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 210.2465ms 
+2023-08-19 23:59:43.3041||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-19 23:59:43.3041||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-19 23:59:43.3041||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.1837ms 
+2023-08-19 23:59:43.3383||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.1212ms 
+2023-08-19 23:59:43.3716||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-19 23:59:43.4443||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.7399ms 
+2023-08-19 23:59:47.7045||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/GetAllCources - - 
+2023-08-19 23:59:47.7045||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.GetAllCources (OnlineEducation.Api)' 
+2023-08-19 23:59:47.7153||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCources", controller = "Cource"}. Executing controller action with signature System.Object GetAllCources() on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-19 23:59:48.4895||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+FROM [tblCource] AS [t] 
+2023-08-19 23:59:48.5094||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-19 23:59:48.5234||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.GetAllCources (OnlineEducation.Api) in 806.081ms 
+2023-08-19 23:59:48.5234||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.GetAllCources (OnlineEducation.Api)' 
+2023-08-19 23:59:48.5234||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/GetAllCources - - - 200 - application/json;+charset=utf-8 824.4983ms 

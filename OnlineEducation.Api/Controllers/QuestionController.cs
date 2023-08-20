@@ -15,10 +15,10 @@ namespace OnlineEducation.Controllers
 		{
 		}
 
-		[HttpGet("GetAllQuestions")]
-		public dynamic GetAllQuestions()
+		[HttpGet("GetQuestionsByTest")]
+		public dynamic GetAllQuestions(int testId)
 		{
-			List<Question> items = repo.QuestionRepository.FindAll().ToList<Question>();
+			List<Question> items = repo.QuestionRepository.FindByCondition(x=>x.TestId == testId).ToList<Question>();
 			return new
 			{
 				success = true,
