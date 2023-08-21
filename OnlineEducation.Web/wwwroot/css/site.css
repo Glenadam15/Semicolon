@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.bi bi-pencil-square {
+    display: inline-block;
+    padding-left: 50px;
+}

@@ -2,7 +2,7 @@
 function GetCategories() {
     Get("Category/GetAllCategories", (data) => {
         var html = `<table class="table table-hover">` +
-            `<tr><th style="width:50px">Id</th><th>Category Name</th><th></th></`;
+            `<tr><th style="width:50px">Id</th><th>Category Name</th><th></th></tr>`;
 
         var arr = data;
 

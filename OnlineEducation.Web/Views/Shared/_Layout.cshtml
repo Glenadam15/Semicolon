@@ -18,8 +18,8 @@
 </head>
 <body>
 <header>
-		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-			<div class="container-fluid">
+	<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+		<div class="container-fluid">
 
 			<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
 				<img src="~/img/logo_1.png" style="width:200px;height:60px" />
@@ -31,31 +31,31 @@
 			</button>
 
 			<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-					<ul class="nav nav-underline">
+				<ul class="nav nav-underline">
 					<li class="nav-item">
 						<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
 					</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-						</li>
-						<li class="nav-item">
-							@if (Repo.Session.Role == "Admin")
-							{
-								<a class="nav-link text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin Page</a>
-							}
-							else
-							{
-							}
-						</li>
+					<li class="nav-item">
+						<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						@if (Repo.Session.Role == "Admin")
+						{
+							<a class="nav-link text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin Page</a>
+						}
+						else
+						{
+						}
+					</li>
 
-						<li class="nav-item">
+					<li class="nav-item">
 
 						@if (string.IsNullOrEmpty(Repo.Session.Email))
 						{
-								<a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="AccessLogin">Login</a>
+							<a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="AccessLogin">Login</a>
 						}
 						else
 						{
@@ -72,6 +72,7 @@
 		</div>
 	</nav>
 </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

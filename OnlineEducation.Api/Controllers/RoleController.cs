@@ -8,7 +8,7 @@ using OnlineEducation.Repository;
 
 namespace OnlineEducation.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class RoleController : BaseController

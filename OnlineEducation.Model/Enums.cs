@@ -9,12 +9,4 @@ public static class Enums
         public static int Instructor = 3;
         
     }
-
-    public static class Categories
-    {
-	    public static int Yazılım = 1;
-	    public static int GrafikTasarim = 2;
-	    public static int UcBoyutluModelleme = 3;
-
-    }
 }

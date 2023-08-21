@@ -10,8 +10,8 @@ public class RoleRepository : RepositoryBase<Role>
         
     }
 
-    public void RoleDelete(int rolId)
+    public void RoleDelete(int roleId)
     {
-        RepositoryContext.Roles.Where(r => r.Id == rolId).ExecuteDelete();
+        RepositoryContext.Roles.Where(r => r.Id == roleId).ExecuteDelete();
     }
 }

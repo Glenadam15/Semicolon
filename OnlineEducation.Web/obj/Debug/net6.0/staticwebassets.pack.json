@@ -53,12 +53,12 @@
       "PackagePath": "staticwebassets\\img\\logo_1.png"
     },
     {
-      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\Category.js",
-      "PackagePath": "staticwebassets\\js\\admin\\Category.js"
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\category.js",
+      "PackagePath": "staticwebassets\\js\\admin\\category.js"
     },
     {
-      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\Role.js",
-      "PackagePath": "staticwebassets\\js\\admin\\Role.js"
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\role.js",
+      "PackagePath": "staticwebassets\\js\\admin\\role.js"
     },
     {
       "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\site.js",

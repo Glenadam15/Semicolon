@@ -2,14 +2,14 @@
 function GetRoles() {
     Get("Role/GetAllRoles", (data) => {
         var html = `<table class="table table-hover">` +
-            `<tr><th style="width:50px">Id</th><th>Rol Name</th><th></th></tr>`;
+            `<tr><th style="width:50px">Id</th><th>Role Name</th><th></th></tr>`;
 
         var arr = data;
 
         for (var i = 0; i < arr.length; i++) {
             html += `<tr>`;
             html += `<td>${arr[i].id}</td><td>${arr[i].name}</td>`;
-            html += `<td><i class="bi bi-trash text-danger" onclick='RoleDelete(${arr[i].id})'></i><i class="bi bi-pencil-square" onclick='RoleUpdate(${arr[i].id},"${arr[i].name}")'></i></td>`;
+            html += `<td><i class="bi bi-trash text-danger" onclick='RoleDelete(${arr[i].id})'></i><i class="bi bi-pencil-square" onclick='RoleUpdate(${arr[i].id},"${arr[i].ad}")'></i></td>`;
             html += `</tr>`
         }
         html += `</table>`;
@@ -30,7 +30,7 @@ function RoleSave() {
         Id: selectedRoleId,
         Name: $("#inputRoleName").val()
     };
-    Post("Role/Save", rol, (data) => {
+    Post("Role/Save", role, (data) => {
         GetRoles();
         $("#roleModal").modal("hide");
     });
