@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineEducation.Model", "On
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineEducation.Repository", "OnlineEducation.Repository\OnlineEducation.Repository.csproj", "{0BA592FD-F5EF-4D16-9421-14622A5D4D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEducation.Web", "OnlineEducation.Web\OnlineEducation.Web.csproj", "{8A8A9D5A-49ED-441A-8FD0-13BE0785F202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineEducation.Web", "OnlineEducation.Web\OnlineEducation.Web.csproj", "{8A8A9D5A-49ED-441A-8FD0-13BE0785F202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

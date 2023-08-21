@@ -9,7 +9,7 @@ namespace OnlineEducation.Web.Controllers
     {
         public IActionResult Login() => View();
 
-        public IActionResult Login(LoginModel model)
+        public IActionResult AccessLogin(LoginModel model)
         {
 
             UserRestClient client = new UserRestClient();
@@ -23,12 +23,14 @@ namespace OnlineEducation.Web.Controllers
                 Repo.Session.Token = (string)result.data;
                 Repo.Session.Role = (string)result.role;
 
-                return RedirectToAction("Index", "Home");
-            }
+				if (Repo.Session.Role == "Admin")
+					return RedirectToAction("Index", "Home", new { area = "Admin" });
+				else
+					return RedirectToAction("Index", "Home");
+			}
             else
             {
-
-                ViewBag.LoginError = (string)result.message;
+	            ViewBag.LoginError = (string)result.message;
                 return View("Login");
             }
         }

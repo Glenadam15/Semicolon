@@ -182,3 +182,31 @@ ORDER BY [t0].[Id]
 2023-08-21 14:05:25.6465||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7822ms 
 2023-08-21 14:05:25.7267||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
 2023-08-21 14:05:25.7705||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.7636ms 
+2023-08-21 16:40:53.4819||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 16:40:53.6435||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 16:40:53.6435||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 16:40:53.6435||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 16:40:53.6435||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 16:40:53.6435||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 16:40:54.2563||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 16:40:54.4303||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 175.0163ms 
+2023-08-21 16:40:54.4303||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 16:40:54.4303||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 16:40:54.4303||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 8.8662ms 
+2023-08-21 16:40:54.4627||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4820ms 
+2023-08-21 16:40:54.5395||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 16:40:54.5837||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 44.1041ms 
+2023-08-21 17:02:29.3685||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:02:29.4812||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:02:29.4812||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:02:29.4812||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:02:29.4812||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:02:29.4812||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:02:29.9071||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:02:30.1095||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 203.2987ms 
+2023-08-21 17:02:30.1238||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:02:30.1238||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:02:30.1373||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.4605ms 
+2023-08-21 17:02:30.1621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.3097ms 
+2023-08-21 17:02:30.2325||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:02:30.2898||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.3343ms 
