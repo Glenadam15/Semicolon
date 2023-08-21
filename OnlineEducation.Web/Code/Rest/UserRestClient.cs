@@ -5,16 +5,12 @@ using RestSharp.Serializers.Json;
 
 namespace OnlineEducation.Web.Code.Rest
 {
-    public class UserRestClient
+    public class UserRestClient : BaseRestClient
     {
-
-        private string BASE_API_URI = "https://localhost:7068/api";
-
-        public dynamic Login(string username, string password)
+        
+	    public dynamic Login(string username, string password)
         {
-            RestClient client = new RestClient(BASE_API_URI, configureSerialization: s => s.UseSystemTextJson(new JsonSerializerOptions { PropertyNamingPolicy = null }));
-
-            RestRequest req = new RestRequest("/Auth/Login", Method.Post);
+	        RestRequest req = new RestRequest("/Auth/Login", Method.Post);
             req.AddJsonBody(new
             {
                 Username = username,

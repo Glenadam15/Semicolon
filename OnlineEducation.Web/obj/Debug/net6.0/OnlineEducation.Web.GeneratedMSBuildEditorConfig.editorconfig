@@ -28,8 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Semicolon/OnlineEducation.Web/Areas/Admin/Views/Home/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfVmlld1N0YXJ0LmNzaHRtbA==
+[D:/Fork/Semicolon/OnlineEducation.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fork/Semicolon/OnlineEducation.Web/Areas/Cource/Views/Cource/CourceImg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291cmNlXFZpZXdzXENvdXJjZVxDb3VyY2VJbWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fork/Semicolon/OnlineEducation.Web/Areas/Cource/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291cmNlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Fork/Semicolon/OnlineEducation.Web/Views/Account/Login.cshtml]

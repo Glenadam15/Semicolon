@@ -32,5 +32,14 @@ namespace OnlineEducation.Web.Controllers
                 return View("Login");
             }
         }
-    }
+
+        public IActionResult Logout()
+        {
+	        Repo.Session.Username = "";
+	        Repo.Session.Token = "";
+	        Repo.Session.Role = "";
+
+	        return RedirectToAction("Index", "Home");
+        }
+	}
 }

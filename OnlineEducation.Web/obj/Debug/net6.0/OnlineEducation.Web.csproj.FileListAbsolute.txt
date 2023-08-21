@@ -458,3 +458,4 @@ D:\Fork\Semicolon\OnlineEducation.Web\obj\Debug\net6.0\refint\OnlineEducation.We
 D:\Fork\Semicolon\OnlineEducation.Web\obj\Debug\net6.0\OnlineEducation.Web.pdb
 D:\Fork\Semicolon\OnlineEducation.Web\obj\Debug\net6.0\OnlineEducation.Web.genruntimeconfig.cache
 D:\Fork\Semicolon\OnlineEducation.Web\obj\Debug\net6.0\ref\OnlineEducation.Web.dll
+D:\Fork\Semicolon\OnlineEducation.Web\bin\Debug\net6.0\libman.json

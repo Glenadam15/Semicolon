@@ -12,6 +12,7 @@ namespace OnlineEducation.Model
 	{
 		public int Id { get; set; }
 		public int CourceId { get; set; }
-		public byte[]? Img { get; set; }
+		public string? Img { get; set; }
+		public bool FirstImg { get; set; }
 	}
 }
