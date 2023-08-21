@@ -4,7 +4,7 @@ using RestSharp.Serializers.Json;
 
 namespace OnlineEducation.Web.Code.Rest
 {
-	public class BaseRestClient
+	public abstract class BaseRestClient
 	{
 		public static string BASE_URL = "https://localhost:7068/api";
 		protected RestClient client;

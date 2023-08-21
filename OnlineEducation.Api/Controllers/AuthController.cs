@@ -32,12 +32,12 @@ public class AuthController : BaseController
         if (item != null)
         {
 
-            Role rol = repo.RoleRepository.FindByCondition(r => r.Id == item.RoleId).SingleOrDefault<Role>();
+            Role role = repo.RoleRepository.FindByCondition(r => r.Id == item.RoleId).SingleOrDefault<Role>();
 
             Dictionary<string, object> claims = new Dictionary<string, object>();
 
-            if (rol!= null)
-                claims.Add(ClaimTypes.Role, rol.Name);
+            if (role!= null)
+                claims.Add(ClaimTypes.Role, role.Name);
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenKey = Encoding.UTF8.GetBytes("OnlineEducationTokenKeyForAuthentication");
@@ -55,7 +55,7 @@ public class AuthController : BaseController
             {
                 success = true,
                 data = tokenHandler.WriteToken(token),
-                rol = rol?.Name
+                role = role?.Name
             };
         }
         else

@@ -6,12 +6,9 @@ namespace OnlineEducation.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
-        {
+        public HomeController(){}
 
-        }
-
-        public IActionResult Index() => View();
+	    public IActionResult Index() => View();
         public IActionResult About() => View();
         public IActionResult Contact() => View();
 

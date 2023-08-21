@@ -8,7 +8,7 @@ namespace OnlineEducation.Web.Code.Rest
         
 	    public dynamic Login(string email, string password)
         {
-	        RestRequest req = new RestRequest("/Auth/Login", Method.Post);
+	        RestRequest req = new RestRequest($"/Auth/Login", Method.Post);
             req.AddJsonBody(new
             {
                 Email = email,

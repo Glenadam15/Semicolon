@@ -17,10 +17,10 @@ public class CourceRepository : RepositoryBase<Cource>
 	    RepositoryContext.Cources.Where(x => x.Id == courceId).ExecuteDelete();
     }
 
-    public Cource CourceById(int id)
+    public Cource CourceById(int courceId)
     {
 	    Cource cource = (from c in RepositoryContext.Cources.Include(a => a.CourceImg)
-		    where c.Id == id
+		    where c.Id == courceId
 		    select c).SingleOrDefault<Cource>();
 	    return cource;
     }

@@ -2,7 +2,7 @@
 function GetRoles() {
     Get("Role/GetAllRoles", (data) => {
         var html = `<table class="table table-hover">` +
-            `<tr><th style="width:50px">Id</th><th>Rol Adı</th><th></th></tr>`;
+            `<tr><th style="width:50px">Id</th><th>Rol Name</th><th></th></tr>`;
 
         var arr = data;
 
@@ -25,7 +25,7 @@ function NewRole() {
     $("#inputRoleName").val("");
     $("#roleModal").modal("show");
 }
-function RolSave() {
+function RoleSave() {
     var role = {
         Id: selectedRoleId,
         Name: $("#inputRoleName").val()

@@ -686,3 +686,498 @@ FROM [tblRole] AS [t]
 2023-08-21 18:07:25.6568||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.2391ms 
 2023-08-21 18:07:25.7070||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
 2023-08-21 18:07:25.7647||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.6822ms 
+2023-08-21 19:53:24.0947||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 19:53:24.2149||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 19:53:24.2149||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 19:53:24.2149||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 19:53:24.2149||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 19:53:24.2149||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 19:53:25.0429||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 19:53:25.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 19:53:25.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 19:53:25.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 243.0824ms 
+2023-08-21 19:53:25.2941||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.0992ms 
+2023-08-21 19:53:25.3291||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.1886ms 
+2023-08-21 19:53:25.3568||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 19:53:25.4133||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.5020ms 
+2023-08-21 21:02:16.4052||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:02:16.5346||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:02:16.5346||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:02:16.5346||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:02:16.5346||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:02:16.5346||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:02:17.3147||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:02:17.4968||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 181.4761ms 
+2023-08-21 21:02:17.4968||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:02:17.4968||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:02:17.5083||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.7462ms 
+2023-08-21 21:02:17.5315||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.9262ms 
+2023-08-21 21:02:17.5765||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:02:17.6307||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 54.2466ms 
+2023-08-21 21:02:43.4133||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - 
+2023-08-21 21:02:43.4133||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - - 404 0 - 7.5685ms 
+2023-08-21 21:06:26.4315||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:06:26.5358||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:06:26.5358||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:06:26.5358||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:06:26.5358||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:06:26.5358||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:06:27.2094||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:06:27.4143||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 205.9742ms 
+2023-08-21 21:06:27.4143||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:06:27.4143||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:06:27.4326||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.3498ms 
+2023-08-21 21:06:27.4535||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3626ms 
+2023-08-21 21:06:27.4937||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:06:27.5511||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.3905ms 
+2023-08-21 21:06:42.4398||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=6 - - 
+2023-08-21 21:06:42.4398||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:06:42.4532||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:06:43.2521||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:06:43.2707||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:06:43.2832||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 828.2256ms 
+2023-08-21 21:06:43.2832||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:06:43.2832||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=6 - - - 200 - application/json;+charset=utf-8 847.5578ms 
+2023-08-21 21:06:57.0887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=7 - - 
+2023-08-21 21:06:57.0887||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:06:57.0887||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:06:57.1013||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:06:57.1013||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:06:57.1013||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 12.3233ms 
+2023-08-21 21:06:57.1013||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:06:57.1013||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=7 - - - 200 - application/json;+charset=utf-8 14.9780ms 
+2023-08-21 21:07:36.8731||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:07:36.9977||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:07:36.9977||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:07:36.9977||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:07:36.9977||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:07:36.9977||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:07:37.4530||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:07:37.6524||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 200.2065ms 
+2023-08-21 21:07:37.6706||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:07:37.6706||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:07:37.6847||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 14.0119ms 
+2023-08-21 21:07:37.7067||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.0310ms 
+2023-08-21 21:07:37.7453||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:07:37.7962||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 50.9046ms 
+2023-08-21 21:07:45.2253||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=1 - - 
+2023-08-21 21:07:45.2290||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:07:45.2290||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:07:46.0049||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:07:46.0165||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:07:46.0226||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 782.305ms 
+2023-08-21 21:07:46.0226||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:07:46.0226||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=1 - - - 200 - application/json;+charset=utf-8 801.7209ms 
+2023-08-21 21:07:59.7823||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:07:59.9648||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:07:59.9648||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:07:59.9648||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:07:59.9648||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:07:59.9648||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:08:00.8662||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:08:01.0524||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 187.4157ms 
+2023-08-21 21:08:01.0629||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:08:01.0629||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:08:01.0766||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.5459ms 
+2023-08-21 21:08:01.0980||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.0759ms 
+2023-08-21 21:08:01.1292||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:08:01.1855||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.3174ms 
+2023-08-21 21:08:32.2719||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/0 - - 
+2023-08-21 21:08:32.3131||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/0 - - - 404 0 - 41.2063ms 
+2023-08-21 21:10:07.2846||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:10:07.4501||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:10:07.4501||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:10:07.4501||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:10:07.4501||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:10:07.4501||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:10:07.8223||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:10:08.0260||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 204.6986ms 
+2023-08-21 21:10:08.0260||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:10:08.0260||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:10:08.0424||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 9.4753ms 
+2023-08-21 21:10:08.0664||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.4836ms 
+2023-08-21 21:10:08.1049||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:10:08.1606||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.6604ms 
+2023-08-21 21:10:38.4539||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/0 - - 
+2023-08-21 21:10:38.4954||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/0 - - - 404 0 - 41.5480ms 
+2023-08-21 21:12:43.4178||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:12:43.5372||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:12:43.5372||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:12:43.5387||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:12:43.5387||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:12:43.5387||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:12:43.9420||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:12:44.1714||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:12:44.1714||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:12:44.1843||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 243.4714ms 
+2023-08-21 21:12:44.1843||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.1804ms 
+2023-08-21 21:12:44.2083||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.8640ms 
+2023-08-21 21:12:44.2397||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:12:44.3055||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.7327ms 
+2023-08-21 21:12:54.2226||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=4 - - 
+2023-08-21 21:12:54.2226||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:12:54.2364||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:12:54.9902||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:12:55.0086||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:12:55.0086||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 782.7436ms 
+2023-08-21 21:12:55.0086||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:12:55.0249||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=4 - - - 200 - application/json;+charset=utf-8 802.3764ms 
+2023-08-21 21:13:07.5591||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=5 - - 
+2023-08-21 21:13:07.5591||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:13:07.5591||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:13:07.5591||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:13:07.5591||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:13:07.5734||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 12.3868ms 
+2023-08-21 21:13:07.5734||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:13:07.5734||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=5 - - - 200 - application/json;+charset=utf-8 15.1798ms 
+2023-08-21 21:13:10.6778||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=6 - - 
+2023-08-21 21:13:10.6778||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:13:10.6778||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:13:10.7093||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:13:10.7093||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:13:10.7093||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 31.4703ms 
+2023-08-21 21:13:10.7093||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:13:10.7093||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=6 - - - 200 - application/json;+charset=utf-8 32.5045ms 
+2023-08-21 21:13:14.5520||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=7 - - 
+2023-08-21 21:13:14.5520||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:13:14.5520||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:13:14.5538||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:13:14.5538||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:13:14.5538||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 2.2738ms 
+2023-08-21 21:13:14.5538||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:13:14.5538||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?courceId=7 - - - 200 - application/json;+charset=utf-8 3.1296ms 
+2023-08-21 21:31:16.4892||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:31:16.6770||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:31:16.6770||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:31:16.6770||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:31:16.6770||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:31:16.6790||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:31:17.4536||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:31:17.6462||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:31:17.6462||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:31:17.6549||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 202.8112ms 
+2023-08-21 21:31:17.6549||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 7.9438ms 
+2023-08-21 21:31:17.6777||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.5556ms 
+2023-08-21 21:31:17.7192||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:31:17.7703||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 51.0992ms 
+2023-08-21 21:32:03.5297||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/0 - - 
+2023-08-21 21:32:03.5677||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/0 - - - 404 0 - 38.0614ms 
+2023-08-21 21:33:24.4870||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:33:24.6078||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:33:24.6078||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:33:24.6078||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:33:24.6078||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:33:24.6078||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:33:25.4748||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:33:25.6882||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:33:25.6882||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:33:25.6882||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 213.9664ms 
+2023-08-21 21:33:25.6996||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.2354ms 
+2023-08-21 21:33:25.7280||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.8048ms 
+2023-08-21 21:33:25.7608||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:33:25.8170||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.2111ms 
+2023-08-21 21:33:44.4675||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - 
+2023-08-21 21:33:44.4675||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - - 404 0 - 6.2878ms 
+2023-08-21 21:37:38.3663||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:37:38.4793||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:37:38.4793||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:37:38.4793||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:37:38.4793||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:37:38.4793||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:37:38.9308||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:37:39.1567||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 226.9734ms 
+2023-08-21 21:37:39.1727||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:37:39.1727||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:37:39.1821||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 9.3433ms 
+2023-08-21 21:37:39.2033||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.5503ms 
+2023-08-21 21:37:39.2358||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:37:39.2910||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.2059ms 
+2023-08-21 21:37:45.9951||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?id=6 - - 
+2023-08-21 21:37:45.9951||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:37:46.0086||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-21 21:37:46.7622||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-21 21:37:46.7806||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-21 21:37:46.7928||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 782.5205ms 
+2023-08-21 21:37:46.7928||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-21 21:37:46.7928||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Cource/CourceImg?id=6 - - - 200 - application/json;+charset=utf-8 802.5292ms 
+2023-08-21 21:38:01.2982||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:38:01.4102||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:38:01.4102||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:38:01.4102||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:38:01.4102||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:38:01.4102||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:38:01.8623||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:38:02.0772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 212.8787ms 
+2023-08-21 21:38:02.0772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:38:02.0772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:38:02.0894||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.0369ms 
+2023-08-21 21:38:02.1119||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.7040ms 
+2023-08-21 21:38:02.1746||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:38:02.2331||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 58.4877ms 
+2023-08-21 21:39:11.5191||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - 
+2023-08-21 21:39:11.5540||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - - 404 0 - 34.8973ms 
+2023-08-21 21:40:00.2159||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:40:00.3342||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:40:00.3342||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:40:00.3353||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:40:00.3353||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:40:00.3353||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:40:00.8288||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:40:01.0473||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 219.7634ms 
+2023-08-21 21:40:01.0473||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:40:01.0473||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:40:01.0596||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.5296ms 
+2023-08-21 21:40:01.0835||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.2722ms 
+2023-08-21 21:40:01.1235||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:40:01.1881||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.6498ms 
+2023-08-21 21:40:35.7365||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - 
+2023-08-21 21:40:35.7435||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - - 404 0 - 7.0338ms 
+2023-08-21 21:48:10.8338||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:48:10.9898||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:48:10.9898||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:48:10.9898||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:48:10.9916||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:48:10.9916||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:48:11.5100||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:48:11.7145||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 205.9522ms 
+2023-08-21 21:48:11.7333||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:48:11.7333||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:48:11.7439||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.4547ms 
+2023-08-21 21:48:11.7700||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.6803ms 
+2023-08-21 21:48:11.7986||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:48:11.8646||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.0045ms 
+2023-08-21 21:49:25.9863||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - 
+2023-08-21 21:49:26.0295||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - - 404 0 - 43.2288ms 
+2023-08-21 21:52:27.7977||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:52:27.9190||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:52:27.9190||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:52:27.9190||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:52:27.9190||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:52:27.9190||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:52:28.4160||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:52:28.6261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 211.1463ms 
+2023-08-21 21:52:28.6471||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:52:28.6471||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:52:28.6606||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.4631ms 
+2023-08-21 21:52:28.6823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.1964ms 
+2023-08-21 21:52:28.7115||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:52:28.7655||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 54.0120ms 
+2023-08-21 21:53:02.3904||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - 
+2023-08-21 21:53:02.3904||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - - 404 0 - 6.1869ms 
+2023-08-21 21:54:56.7176||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:54:56.8777||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:54:56.8777||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:54:56.8777||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:54:56.8777||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:54:56.8777||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:54:57.3041||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:54:57.5696||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 266.4275ms 
+2023-08-21 21:54:57.5696||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:54:57.5696||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:54:57.5696||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.1656ms 
+2023-08-21 21:54:57.6093||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.9952ms 
+2023-08-21 21:54:57.6474||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:54:57.7082||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.8352ms 
+2023-08-21 21:57:02.2256||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 21:57:02.3468||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 21:57:02.3468||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 21:57:02.3468||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 21:57:02.3468||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 21:57:02.3468||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 21:57:02.7809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 21:57:02.9809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 200.8189ms 
+2023-08-21 21:57:02.9976||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 21:57:02.9976||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 21:57:03.0083||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.6552ms 
+2023-08-21 21:57:03.0297||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.0746ms 
+2023-08-21 21:57:03.0598||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 21:57:03.1171||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.2529ms 
+2023-08-21 21:57:46.8229||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 58 
+2023-08-21 21:57:46.8229||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 21:57:46.8229||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-21 21:57:46.8229||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-21 21:57:47.6193||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Email], [t].[EmailIsValid], [t].[EmailValidationDate], [t].[IsActive], [t].[Password], [t].[RegistrationDate], [t].[RoleId], [t].[UpdateDate]
+FROM [tblUser] AS [t]
+WHERE [t].[Email] = @__email_0 AND [t].[Password] = @__password_1 
+2023-08-21 21:57:47.6367||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__item_RoleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [tblRole] AS [t]
+WHERE [t].[Id] = @__item_RoleId_0 
+2023-08-21 21:57:47.7111||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 21:57:47.7111||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api) in 877.1608ms 
+2023-08-21 21:57:47.7111||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-21 21:57:47.7111||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 58 - 200 - application/json;+charset=utf-8 897.9086ms 
+2023-08-21 22:01:27.0259||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 22:01:27.1410||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 22:01:27.1410||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 22:01:27.1410||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 22:01:27.1410||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 22:01:27.1410||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 22:01:27.5149||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 22:01:27.7064||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 192.2290ms 
+2023-08-21 22:01:27.7137||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 22:01:27.7137||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 22:01:27.7137||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.4008ms 
+2023-08-21 22:01:27.7472||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.5291ms 
+2023-08-21 22:01:27.7820||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 22:01:27.8386||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.6463ms 
+2023-08-21 22:02:37.6868||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 22:02:37.7994||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 22:02:37.7994||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 22:02:37.7994||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 22:02:37.7994||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 22:02:37.7994||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 22:02:38.2954||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 22:02:38.5143||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 220.1271ms 
+2023-08-21 22:02:38.5274||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 22:02:38.5274||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 22:02:38.5408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.2616ms 
+2023-08-21 22:02:38.5669||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.4799ms 
+2023-08-21 22:02:38.6019||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 22:02:38.6571||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 54.7725ms 
+2023-08-21 22:03:28.8384||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 58 
+2023-08-21 22:03:28.8384||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 22:03:28.8384||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-21 22:03:28.8384||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-21 22:03:29.6304||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Email], [t].[EmailIsValid], [t].[EmailValidationDate], [t].[IsActive], [t].[Password], [t].[RegistrationDate], [t].[RoleId], [t].[UpdateDate]
+FROM [tblUser] AS [t]
+WHERE [t].[Email] = @__email_0 AND [t].[Password] = @__password_1 
+2023-08-21 22:03:29.6480||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__item_RoleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [tblRole] AS [t]
+WHERE [t].[Id] = @__item_RoleId_0 
+2023-08-21 22:03:29.7077||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 22:03:29.7077||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api) in 858.2304ms 
+2023-08-21 22:03:29.7077||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-21 22:03:29.7168||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7068/api/Auth/Login application/json 58 - 200 - application/json;+charset=utf-8 878.4533ms 
+2023-08-21 22:08:57.5546||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 22:08:57.6765||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 22:08:57.6765||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 22:08:57.6765||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 22:08:57.6765||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 22:08:57.6765||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 22:08:58.0441||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 22:08:58.2822||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 239.4742ms 
+2023-08-21 22:08:58.3067||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 22:08:58.3067||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 22:08:58.3208||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 14.0943ms 
+2023-08-21 22:08:58.3439||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.1440ms 
+2023-08-21 22:08:58.3757||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 22:08:58.4318||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.0991ms 
+2023-08-21 22:09:15.5601||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7068/api/Auth/Login application/json;+charset=utf-8 55 
+2023-08-21 22:09:15.5601||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-21 22:09:15.5737||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Object Login(System.Object) on controller OnlineEducation.Controllers.AuthController (OnlineEducation.Api). 
+2023-08-21 22:09:16.3374||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Email], [t].[EmailIsValid], [t].[EmailValidationDate], [t].[IsActive], [t].[Password], [t].[RegistrationDate], [t].[RoleId], [t].[UpdateDate]
+FROM [tblUser] AS [t]
+WHERE [t].[Email] = @__email_0 AND [t].[Password] = @__password_1 
+2023-08-21 22:09:16.3548||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__item_RoleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [tblRole] AS [t]
+WHERE [t].[Id] = @__item_RoleId_0 
+2023-08-21 22:09:16.4148||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 22:09:16.4148||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api) in 844.6864ms 
+2023-08-21 22:09:16.4148||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.AuthController.Login (OnlineEducation.Api)' 
+2023-08-21 22:09:16.4148||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7068/api/Auth/Login application/json;+charset=utf-8 55 - 200 - application/json;+charset=utf-8 864.1296ms 
+2023-08-21 22:09:26.6401||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-21 22:09:26.6401||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 22:09:26.6401||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - - 204 - - 4.2081ms 
+2023-08-21 22:09:26.6577||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - 
+2023-08-21 22:09:26.6862||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 22:09:26.6862||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 22:09:26.6862||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-21 22:09:26.7009||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-21 22:09:26.7009||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 22:09:26.7009||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 18.9059ms 
+2023-08-21 22:09:26.7009||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 22:09:26.7009||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 49.6389ms 
+2023-08-21 22:09:29.0956||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 22:09:29.0956||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 22:09:29.0956||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.7252ms 
+2023-08-21 22:09:29.1122||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 22:09:29.1122||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 22:09:29.1122||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 22:09:29.1122||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 22:09:29.1521||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 22:09:29.1521||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 22:09:29.1521||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 45.8809ms 
+2023-08-21 22:09:29.1521||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 22:09:29.1521||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 48.5454ms 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 0.7598ms 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 22:09:29.8770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 1.9855ms 

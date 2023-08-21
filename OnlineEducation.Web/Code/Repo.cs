@@ -33,8 +33,8 @@
             {
                 get
                 {
-                    string rol = (new HttpContextAccessor()).HttpContext.Session.GetString("Role");
-                    return rol;
+                    string role = (new HttpContextAccessor()).HttpContext.Session.GetString("Role");
+                    return role;
                 }
                 set
                 {

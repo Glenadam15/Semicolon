@@ -7,7 +7,7 @@ namespace OnlineEducation.Web.Areas.Admin.Controllers
     [AuthActionFilter]
     public class HomeController : Controller
     {
-        public IActionResult Index() => View();
+	    public IActionResult Index() => View();
         public IActionResult Role() => View();
         public IActionResult Category() => View();
 

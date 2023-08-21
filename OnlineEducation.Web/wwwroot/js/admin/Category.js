@@ -2,7 +2,7 @@
 function GetCategories() {
     Get("Category/GetAllCategories", (data) => {
         var html = `<table class="table table-hover">` +
-            `<tr><th style="width:50px">Id</th><th>Rol Adı</th><th></th></tr>`;
+            `<tr><th style="width:50px">Id</th><th>Category Name</th><th></th></`;
 
         var arr = data;
 
@@ -18,7 +18,7 @@ function GetCategories() {
     });
 }
 
-let selectedCategoryName = 0;
+let selectedCategoryId = 0;
 
 function NewCategory() {
     selectedCategoryId = 0;
@@ -26,9 +26,9 @@ function NewCategory() {
     $("#categoryModal").modal("show");
 }
 
-function KategoriKaydet() {
+function CategorySave() {
     var category = {
-        Id: $("#inputCategoryId").val(),
+        Id: selectedCategoryId,
         Name: $("#inputCategoryName").val()     
     };
     Post("Category/Save", category, (data) => {
@@ -51,6 +51,5 @@ function CatgoryUpdate(id, name) {
 }
 
 $(document).ready(function () {
-    GetCategories();
-    
+    GetCategories();    
 });
