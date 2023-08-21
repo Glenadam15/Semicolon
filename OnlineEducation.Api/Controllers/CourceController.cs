@@ -74,7 +74,21 @@ namespace OnlineEducation.Controllers
 	        };
         }
 
+        [HttpGet("CourceImg")]
+
+        public dynamic CourceImg(int id)
+        {
+	        Cource cource = repo.CourceRepository.CourceById(id);
+	        return new
+	        {
+		        success = true,
+				data = cource
+	        };
+
+		}
 
 
-	}
+
+
+}
 }
