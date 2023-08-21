@@ -13,13 +13,13 @@ namespace OnlineEducation.Web.Controllers
         {
 
             UserRestClient client = new UserRestClient();
-            dynamic result = client.Login(model.Username, model.Password);
+            dynamic result = client.Login(model.Email, model.Password);
 
             bool success = result.success;
 
             if (success)
             {
-                Repo.Session.Username = model.Username;
+                Repo.Session.Email = model.Email;
                 Repo.Session.Token = (string)result.data;
                 Repo.Session.Role = (string)result.role;
 
@@ -37,7 +37,7 @@ namespace OnlineEducation.Web.Controllers
 
         public IActionResult Logout()
         {
-	        Repo.Session.Username = "";
+	        Repo.Session.Email = "";
 	        Repo.Session.Token = "";
 	        Repo.Session.Role = "";
 

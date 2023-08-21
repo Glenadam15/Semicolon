@@ -14,7 +14,7 @@ namespace OnlineEducation.Web.Code.Filters
 				if (!isAuthorized)
 					context.Result = new UnauthorizedResult();
 			}
-			else if (string.IsNullOrEmpty(Repo.Session.Username))
+			else if (string.IsNullOrEmpty(Repo.Session.Email))
 			{
 				context.Result = new UnauthorizedResult();
 			}

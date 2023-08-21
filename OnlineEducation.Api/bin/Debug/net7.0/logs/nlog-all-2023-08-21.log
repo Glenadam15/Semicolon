@@ -210,3 +210,479 @@ ORDER BY [t0].[Id]
 2023-08-21 17:02:30.1621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.3097ms 
 2023-08-21 17:02:30.2325||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
 2023-08-21 17:02:30.2898||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.3343ms 
+2023-08-21 17:10:49.8565||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:10:49.9650||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:10:49.9650||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:10:49.9650||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:10:49.9650||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:10:49.9650||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:10:50.6106||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:10:50.7823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 172.8873ms 
+2023-08-21 17:10:50.7823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:10:50.7823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:10:50.7991||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.1170ms 
+2023-08-21 17:10:50.8207||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.7819ms 
+2023-08-21 17:10:50.8898||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:10:50.9348||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 45.0385ms 
+2023-08-21 17:14:28.2076||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:14:28.3322||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:14:28.3322||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:14:28.3322||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:14:28.3322||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:14:28.3322||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:14:28.6966||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:14:28.9140||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 218.7714ms 
+2023-08-21 17:14:28.9140||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:14:28.9140||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:14:28.9341||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.7731ms 
+2023-08-21 17:14:28.9570||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.7035ms 
+2023-08-21 17:14:29.0305||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:14:29.0749||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 44.3809ms 
+2023-08-21 17:15:16.3454||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:15:16.3501||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:15:16.3501||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 6.0516ms 
+2023-08-21 17:15:16.3501||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:15:16.3674||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:15:16.3674||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:15:16.3674||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:15:17.0765||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:15:17.0911||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:15:17.1054||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 728.1674ms 
+2023-08-21 17:15:17.1054||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:15:17.1054||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 744.4060ms 
+2023-08-21 17:15:31.7515||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-21 17:15:31.7515||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:15:31.7515||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - - 204 - - 1.2786ms 
+2023-08-21 17:15:31.7851||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - 
+2023-08-21 17:15:31.7851||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:15:31.7851||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:15:31.7851||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-21 17:15:31.8051||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-21 17:15:31.8051||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:15:31.8051||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 21.0277ms 
+2023-08-21 17:15:31.8051||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:15:31.8051||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 24.0241ms 
+2023-08-21 17:22:28.6715||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:22:28.7913||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:22:28.7913||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:22:28.7913||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:22:28.7913||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:22:28.7913||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:22:29.1475||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:22:29.3517||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 206.0592ms 
+2023-08-21 17:22:29.3517||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:22:29.3517||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:22:29.3709||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.0523ms 
+2023-08-21 17:22:29.3932||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.4965ms 
+2023-08-21 17:22:29.4807||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:22:29.5340||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.2731ms 
+2023-08-21 17:24:51.9418||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:24:52.0777||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:24:52.0777||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:24:52.0777||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:24:52.0777||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:24:52.0777||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:24:52.3500||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:24:52.6111||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 262.6927ms 
+2023-08-21 17:24:52.6251||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:24:52.6251||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:24:52.6335||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 8.3746ms 
+2023-08-21 17:24:52.6569||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.7916ms 
+2023-08-21 17:24:52.6952||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:24:52.7462||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 51.0555ms 
+2023-08-21 17:25:27.5682||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-21 17:25:27.5724||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:25:27.5724||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - - 204 - - 5.2709ms 
+2023-08-21 17:25:27.5887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - 
+2023-08-21 17:25:27.5887||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:25:27.5887||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:25:27.6007||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-21 17:25:28.3082||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-21 17:25:28.3225||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:25:28.3225||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 728.9315ms 
+2023-08-21 17:25:28.3225||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:25:28.3361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 747.3227ms 
+2023-08-21 17:28:08.0108||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:28:08.1360||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:28:08.1360||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:28:08.1360||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:28:08.1360||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:28:08.1360||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:28:08.4887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:28:08.6947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 207.0685ms 
+2023-08-21 17:28:08.6947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:28:08.6947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:28:08.7107||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 9.3484ms 
+2023-08-21 17:28:08.7336||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.2635ms 
+2023-08-21 17:28:08.8143||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:28:08.8606||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.3451ms 
+2023-08-21 17:31:23.1773||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:31:23.3073||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:31:23.3073||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:31:23.3073||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:31:23.3073||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:31:23.3073||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:31:23.6593||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:31:23.8371||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 179.2887ms 
+2023-08-21 17:31:23.8371||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:31:23.8371||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:31:23.8559||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 13.2170ms 
+2023-08-21 17:31:23.8781||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.6281ms 
+2023-08-21 17:31:23.9575||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:31:24.0038||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.2535ms 
+2023-08-21 17:31:46.0936||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:46.0936||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:46.0936||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 4.7179ms 
+2023-08-21 17:31:46.0936||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:46.1012||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:46.1012||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:46.1012||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:46.7782||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:46.7921||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:46.8056||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 694.1259ms 
+2023-08-21 17:31:46.8056||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:46.8056||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 710.3644ms 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 1.1195ms 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:50.6955||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:50.7461||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:50.7461||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:50.7461||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 43.7486ms 
+2023-08-21 17:31:50.7461||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:50.7461||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 46.0526ms 
+2023-08-21 17:31:51.4790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:51.4790||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:51.4790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.6852ms 
+2023-08-21 17:31:51.4983||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:51.4983||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:51.4983||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:51.4983||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:51.5374||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:51.5374||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:51.5374||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 38.9595ms 
+2023-08-21 17:31:51.5382||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:51.5382||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 40.0532ms 
+2023-08-21 17:31:51.9621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:51.9621||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:51.9621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.4461ms 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:51.9790||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 3.4321ms 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:51.9790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 4.5784ms 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.4896ms 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:52.3526||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 3.5764ms 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:52.3526||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 4.8747ms 
+2023-08-21 17:31:52.4989||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:52.4989||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:52.4989||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.4059ms 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:52.5144||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 2.6865ms 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:52.5144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 3.7281ms 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.3777ms 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:52.7888||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 1.72ms 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:52.7888||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 2.3642ms 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.5836ms 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:53.0431||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 2.0471ms 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:53.0431||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 2.7048ms 
+2023-08-21 17:31:53.5128||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:53.5128||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:53.5128||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.5106ms 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:53.5325||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 3.9413ms 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:53.5325||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 5.2716ms 
+2023-08-21 17:31:53.9126||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:53.9126||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:53.9126||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.3480ms 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:53.9140||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 2.5402ms 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:53.9140||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 3.3233ms 
+2023-08-21 17:31:54.4208||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:54.4208||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:54.4208||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.5706ms 
+2023-08-21 17:31:54.4436||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:54.4436||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:54.4436||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:54.4436||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:54.4458||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:54.4458||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:54.4458||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 2.0762ms 
+2023-08-21 17:31:54.4458||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:54.4458||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 2.8997ms 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.3770ms 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:54.7481||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 1.4285ms 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:54.7481||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 2.1633ms 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.4331ms 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:55.7929||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 2.7844ms 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:55.7929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 3.8497ms 
+2023-08-21 17:31:56.3147||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:31:56.3147||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:56.3147||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.3973ms 
+2023-08-21 17:31:56.3329||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:31:56.3329||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:31:56.3329||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:56.3329||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:31:56.3329||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:31:56.3329||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:31:56.3351||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 1.6149ms 
+2023-08-21 17:31:56.3351||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:31:56.3351||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 2.4615ms 
+2023-08-21 17:33:55.0499||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:33:55.1722||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:33:55.1722||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:33:55.1722||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:33:55.1722||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:33:55.1722||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:33:55.8276||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger - - 
+2023-08-21 17:33:55.9136||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger - - - 301 0 - 86.6624ms 
+2023-08-21 17:33:55.9136||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:33:56.0247||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/swagger-ui.css - - 
+2023-08-21 17:33:56.0247||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/swagger-ui-bundle.js - - 
+2023-08-21 17:33:56.0247||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/swagger-ui-standalone-preset.js - - 
+2023-08-21 17:33:56.0247||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:33:56.0247||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:33:56.0408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 122.4535ms 
+2023-08-21 17:33:56.0408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.6826ms 
+2023-08-21 17:33:56.0887||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-08-21 17:33:56.0887||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-08-21 17:33:56.0887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 61.2561ms 
+2023-08-21 17:33:56.0887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/swagger-ui.css - - - 200 143632 text/css 64.6645ms 
+2023-08-21 17:33:56.0887||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-08-21 17:33:56.0887||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 71.4381ms 
+2023-08-21 17:33:56.1114||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.7041ms 
+2023-08-21 17:33:56.1853||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:33:56.1960||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/favicon-32x32.png - - 
+2023-08-21 17:33:56.1960||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2023-08-21 17:33:56.1960||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/favicon-32x32.png - - - 200 628 image/png 0.7467ms 
+2023-08-21 17:33:56.2480||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 62.6871ms 
+2023-08-21 17:34:24.8411||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:34:24.8411||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:34:24.8411||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 3.5395ms 
+2023-08-21 17:34:24.8571||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:34:24.8571||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:34:24.8571||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:34:24.8690||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:34:25.5653||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:34:25.5783||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:34:25.5920||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 721.0996ms 
+2023-08-21 17:34:25.5920||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:34:25.5920||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 739.0462ms 
+2023-08-21 17:34:45.5051||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-21 17:34:45.5051||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:34:45.5051||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - - 204 - - 1.0863ms 
+2023-08-21 17:34:45.5074||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - 
+2023-08-21 17:34:45.5074||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:34:45.5074||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:34:45.5074||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-21 17:34:45.5282||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-21 17:34:45.5282||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:34:45.5282||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 22.2295ms 
+2023-08-21 17:34:45.5282||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:34:45.5282||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 25.1855ms 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 0.5417ms 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:34:57.7621||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:34:57.7974||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:34:57.7974||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:34:57.7974||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 33.5973ms 
+2023-08-21 17:34:57.7974||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:34:57.7974||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 34.4853ms 
+2023-08-21 17:35:45.8382||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 17:35:45.9572||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 17:35:45.9572||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 17:35:45.9572||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 17:35:45.9572||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 17:35:45.9572||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 17:35:46.4862||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 17:35:46.7525||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 267.7280ms 
+2023-08-21 17:35:46.7702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 17:35:46.7702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 17:35:46.7826||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 12.3394ms 
+2023-08-21 17:35:46.8049||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7064ms 
+2023-08-21 17:35:46.8968||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 17:35:46.9540||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.1702ms 
+2023-08-21 17:37:01.7348||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:37:01.7348||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:37:01.7348||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 5.5872ms 
+2023-08-21 17:37:01.7417||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:37:01.7417||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:37:01.7417||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:37:01.7417||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:37:02.4271||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:37:02.4407||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:37:02.4549||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 701.8575ms 
+2023-08-21 17:37:02.4549||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:37:02.4549||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 717.4511ms 
+2023-08-21 17:37:12.7375||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - 
+2023-08-21 17:37:12.7375||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:37:12.7375||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Category/GetAllCategories - - - 204 - - 1.2018ms 
+2023-08-21 17:37:12.7375||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - 
+2023-08-21 17:37:12.7375||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:37:12.7375||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:37:12.7419||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCategories", controller = "Category"}. Executing controller action with signature System.Object GetAllCategories() on controller OnlineEducation.Controllers.CategoryController (OnlineEducation.Api). 
+2023-08-21 17:37:12.7599||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblCategory] AS [t] 
+2023-08-21 17:37:12.7599||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Category, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:37:12.7599||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api) in 23.0923ms 
+2023-08-21 17:37:12.7599||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CategoryController.GetAllCategories (OnlineEducation.Api)' 
+2023-08-21 17:37:12.7599||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Category/GetAllCategories application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 26.4543ms 
+2023-08-21 17:37:39.8823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - 
+2023-08-21 17:37:39.8823||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:37:39.9089||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7068/api/Role/GetAllRoles - - - 204 - - 26.6940ms 
+2023-08-21 17:37:39.9137||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - 
+2023-08-21 17:37:39.9137||INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-08-21 17:37:39.9137||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:37:39.9137||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllRoles", controller = "Role"}. Executing controller action with signature System.Object GetAllRoles() on controller OnlineEducation.Controllers.RoleController (OnlineEducation.Api). 
+2023-08-21 17:37:39.9506||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name]
+FROM [tblRole] AS [t] 
+2023-08-21 17:37:39.9506||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[OnlineEducation.Model.Role, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-08-21 17:37:39.9506||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api) in 36.5619ms 
+2023-08-21 17:37:39.9506||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.RoleController.GetAllRoles (OnlineEducation.Api)' 
+2023-08-21 17:37:39.9506||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/api/Role/GetAllRoles application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 37.7690ms 
+2023-08-21 18:06:09.1459||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 18:06:09.2539||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 18:06:09.2539||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 18:06:09.2539||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 18:06:09.2539||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 18:06:09.2539||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 18:06:10.3260||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 18:06:10.5206||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 195.4349ms 
+2023-08-21 18:06:10.5206||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 18:06:10.5206||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 18:06:10.5332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 11.4691ms 
+2023-08-21 18:06:10.5559||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.1700ms 
+2023-08-21 18:06:10.6068||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 18:06:10.6608||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 54.0038ms 
+2023-08-21 18:07:24.7276||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-21 18:07:24.8346||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-21 18:07:24.8346||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-21 18:07:24.8346||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-21 18:07:24.8346||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-21 18:07:24.8346||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-21 18:07:25.3792||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-21 18:07:25.6205||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 242.6916ms 
+2023-08-21 18:07:25.6205||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-21 18:07:25.6205||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-21 18:07:25.6348||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.1995ms 
+2023-08-21 18:07:25.6568||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.2391ms 
+2023-08-21 18:07:25.7070||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-21 18:07:25.7647||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.6822ms 

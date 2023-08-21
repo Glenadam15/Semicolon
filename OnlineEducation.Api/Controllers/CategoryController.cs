@@ -35,7 +35,7 @@ public class CategoryController : BaseController
         };
     }
     
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     [HttpPost("Save")]
     public dynamic Save ([FromBody] dynamic model)
     {
@@ -63,7 +63,7 @@ public class CategoryController : BaseController
         };
     }
 
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     [HttpDelete("Delete")]
     public dynamic Delete(int id)
     {

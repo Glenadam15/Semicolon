@@ -1,24 +1,22 @@
-﻿using System.Text.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using RestSharp;
-using RestSharp.Serializers.Json;
 
 namespace OnlineEducation.Web.Code.Rest
 {
     public class UserRestClient : BaseRestClient
     {
         
-	    public dynamic Login(string username, string password)
+	    public dynamic Login(string email, string password)
         {
 	        RestRequest req = new RestRequest("/Auth/Login", Method.Post);
             req.AddJsonBody(new
             {
-                Username = username,
+                Email = email,
                 Password = password
             });
 
-            RestResponse resp = client.Post(req);
-            string msg = resp.Content.ToString();
+            RestResponse res = client.Post(req);
+            string msg = res.Content.ToString();
             dynamic result = JObject.Parse(msg);
             return result;
         }

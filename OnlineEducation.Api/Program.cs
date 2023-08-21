@@ -47,7 +47,7 @@ builder.Services.AddAuthentication(x => {
     };
 });
 
-//Json serilazationda reference handler 
+//Json serilazation reference handler 
 builder.Services.AddControllers()
     .AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 

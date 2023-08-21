@@ -23,11 +23,11 @@ public class AuthController : BaseController
     {
         dynamic json = JObject.Parse(model.GetRawText());
 
-        string username = json.Username;
+        string email = json.Email;
         string password = json.Password;
 
         User item = repo.UserRepository
-            .FindByCondition(k => k.Username == username && k.Password == password).SingleOrDefault<User>();
+            .FindByCondition(k => k.Email == email && k.Password == password).SingleOrDefault<User>();
 
         if (item != null)
         {
@@ -63,7 +63,7 @@ public class AuthController : BaseController
             return new
             {
                 success = false,
-                message = "Username or password is wrong"
+                message = "Email or password is wrong"
             };
         }
     }

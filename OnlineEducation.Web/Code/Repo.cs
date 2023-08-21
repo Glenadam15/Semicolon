@@ -5,16 +5,16 @@
         public static class Session
         {
 
-            public static string? Username
+            public static string? Email
             {
                 get
                 {
-                    string username = (new HttpContextAccessor()).HttpContext.Session.GetString("Username");
-                    return username;
+                    string email = (new HttpContextAccessor()).HttpContext.Session.GetString("Email");
+                    return email;
                 }
                 set
                 {
-                    (new HttpContextAccessor()).HttpContext.Session.SetString("Username", value ?? "");
+                    (new HttpContextAccessor()).HttpContext.Session.SetString("Email", value ?? "");
                 }
             }
             public static string? Token

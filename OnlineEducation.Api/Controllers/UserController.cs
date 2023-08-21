@@ -19,11 +19,11 @@ public class UserController : BaseController
     {
         dynamic json = JObject.Parse(model.GetRawText());
 
-        string username = json.Username;
+        string email = json.Email;
         string password = json.Password;
 
         User item = repo.UserRepository
-            .FindByCondition(k => k.Username == username && k.Password == password).SingleOrDefault<User>();
+            .FindByCondition(k => k.Email == email && k.Password == password).SingleOrDefault<User>();
         if (item != null)
         {
             return new
@@ -37,7 +37,7 @@ public class UserController : BaseController
             return new
             {
                 success = false,
-                message = "Username or password is wrong"
+                message = "Email or password is wrong"
             };
         }
   
@@ -48,18 +48,18 @@ public class UserController : BaseController
     {
         dynamic json = JObject.Parse(model.GetRawText());
 
-        string username = json.Username;
+        string email = json.Email;
         string password = json.Password;
 
         User item = new User()
         {
             IsActive = true,
-            Username = username,
+            Email = email,
             Password = password,
             RoleId = Enums.Roles.Student
         };
 
-        User? kullanici = repo.UserRepository.FindByCondition(k => k.Username == item.Username).SingleOrDefault<User>();
+        User? kullanici = repo.UserRepository.FindByCondition(k => k.Email == item.Email).SingleOrDefault<User>();
         if (kullanici != null)
         {
             return new

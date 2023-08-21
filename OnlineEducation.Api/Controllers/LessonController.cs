@@ -28,7 +28,7 @@ namespace OnlineEducation.Controllers
 			};
 		}
 
-		//[Authorize(Roles = "Admin,Instructor")]
+		[Authorize(Roles = "Admin,Instructor")]
 		[HttpDelete("{id}")]
 		public dynamic Delete(int id)
 		{
@@ -39,7 +39,7 @@ namespace OnlineEducation.Controllers
 			};
 		}
 
-		//[Authorize(Roles = "Admin,Instructor")]
+		[Authorize(Roles = "Admin,Instructor")]
 		[HttpPost("Save")]
 		public dynamic Save([FromBody] dynamic model)
 		{
