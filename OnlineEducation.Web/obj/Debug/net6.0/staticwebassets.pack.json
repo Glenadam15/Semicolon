@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexBanner\\Banner_Blender.png",
+      "PackagePath": "staticwebassets\\img\\IndexBanner\\Banner_Blender.png"
+    },
+    {
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexBanner\\Banner_C.png",
+      "PackagePath": "staticwebassets\\img\\IndexBanner\\Banner_C.png"
+    },
+    {
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexBanner\\Banner_Photoshop.png",
+      "PackagePath": "staticwebassets\\img\\IndexBanner\\Banner_Photoshop.png"
+    },
+    {
       "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\about-us.png",
       "PackagePath": "staticwebassets\\img\\about-us.png"
     },
@@ -59,6 +71,10 @@
     {
       "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\role.js",
       "PackagePath": "staticwebassets\\js\\admin\\role.js"
+    },
+    {
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\bannerjs.js",
+      "PackagePath": "staticwebassets\\js\\bannerjs.js"
     },
     {
       "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\site.js",

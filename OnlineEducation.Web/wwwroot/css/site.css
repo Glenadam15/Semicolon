@@ -1,11 +1,43 @@
+
 html {
-  font-size: 14px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 14px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+@media only screen and (min-width:1200px) { /* XL */
+    body {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) { /* L */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) { /* M */
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) { /* S */
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:574px) { /* XS */
+    body {
+        font-size: 12px;
+    }
 }
 
 html {
@@ -21,3 +53,65 @@ body {
     display: inline-block;
     padding-left: 50px;
 }
+
+.AllSlideArea {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: top;
+}
+
+.SlideAreaImg {
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: top;
+}
+
+.SlideImg {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    font-size: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.SlideImg img {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+        outline: none;
+}    
+
