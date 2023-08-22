@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hal2uFH+9flgUYka8zVWb/RpmEgVoJ34rqF4l5x8mkA=",
+  "Hash": "kF+L+us6UokGjb4HeIDOgzMWdLBvUknXgvtbvwamhbo=",
   "Source": "OnlineEducation.Web",
   "BasePath": "_content/OnlineEducation.Web",
   "Mode": "Default",
@@ -236,6 +236,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\cource_img\\Web.jpg"
+    },
+    {
+      "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexAdmin\\Icon_Categoy.png",
+      "SourceId": "OnlineEducation.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\",
+      "BasePath": "_content/OnlineEducation.Web",
+      "RelativePath": "img/IndexAdmin/Icon_Categoy.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\IndexAdmin\\Icon_Categoy.png"
+    },
+    {
+      "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexAdmin\\Icon_Role.png",
+      "SourceId": "OnlineEducation.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\",
+      "BasePath": "_content/OnlineEducation.Web",
+      "RelativePath": "img/IndexAdmin/Icon_Role.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\IndexAdmin\\Icon_Role.png"
     },
     {
       "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexBanner\\Banner_Blender.png",

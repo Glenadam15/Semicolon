@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexAdmin\\Icon_Categoy.png",
+      "PackagePath": "staticwebassets\\img\\IndexAdmin\\Icon_Categoy.png"
+    },
+    {
+      "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexAdmin\\Icon_Role.png",
+      "PackagePath": "staticwebassets\\img\\IndexAdmin\\Icon_Role.png"
+    },
+    {
       "Id": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\img\\IndexBanner\\Banner_Blender.png",
       "PackagePath": "staticwebassets\\img\\IndexBanner\\Banner_Blender.png"
     },

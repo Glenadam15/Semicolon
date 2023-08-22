@@ -63,11 +63,33 @@
 	</nav>
 </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+<div class="container-fluid">
+	<div class="card-group justify-content-center">
+		<a asp-area="Admin" asp-controller="Home" asp-action="Role">
+			<div class="card" style="width: 400px;">
+				<img src="~/img/IndexAdmin/Icon_Role.png" class="m-auto rounded indexadmincard" />
+				<div class="card-body">
+					Roles
+				</div>
+			</div>
+		</a>
+		<a asp-area="Admin" asp-controller="Home" asp-action="Category">
+			<div class="card" style="width: 400px;">
+				<img src="~/img/IndexAdmin/Icon_Categoy.png" class="m-auto rounded indexadmincard" />
+				<div class="card-body">
+					Categories
+				</div>
+			</div>
+		</a>
+		
+	</div>
+</div>
+
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
 
 <footer class="border-top footer text-muted">
 	<div class="container">
