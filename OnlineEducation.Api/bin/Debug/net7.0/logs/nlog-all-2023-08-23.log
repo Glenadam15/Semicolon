@@ -228,3 +228,65 @@ ORDER BY [t0].[Id]
 2023-08-23 11:13:52.8868||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 772.9566ms 
 2023-08-23 11:13:52.8868||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
 2023-08-23 11:13:52.8868||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - - 200 - application/json;+charset=utf-8 794.8729ms 
+2023-08-23 11:45:59.8545||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\s_utk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-23 11:45:59.9868||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7068 
+2023-08-23 11:45:59.9868||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5076 
+2023-08-23 11:45:59.9868||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-23 11:45:59.9868||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-23 11:45:59.9868||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fork\Semicolon\OnlineEducation.Api 
+2023-08-23 11:46:00.5494||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - - 
+2023-08-23 11:46:00.7466||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 198.8563ms 
+2023-08-23 11:46:00.7586||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-23 11:46:00.7586||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - - 
+2023-08-23 11:46:00.7586||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - - - 200 12008 application/javascript;+charset=utf-8 10.0549ms 
+2023-08-23 11:46:00.7910||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.3690ms 
+2023-08-23 11:46:00.8669||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - 
+2023-08-23 11:46:00.9144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.4838ms 
+2023-08-23 11:46:08.8142||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - 
+2023-08-23 11:46:08.8142||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-23 11:46:08.8276||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-23 11:46:09.6291||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-23 11:46:09.6506||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-23 11:46:09.6643||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 834.964ms 
+2023-08-23 11:46:09.6643||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-23 11:46:09.6643||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/4 - - - 200 - application/json;+charset=utf-8 856.0241ms 
+2023-08-23 11:46:19.2396||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/5 - - 
+2023-08-23 11:46:19.2410||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-23 11:46:19.2410||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-23 11:46:19.2410||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-23 11:46:19.2410||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-23 11:46:19.2410||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 13.7155ms 
+2023-08-23 11:46:19.2410||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-23 11:46:19.2410||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/5 - - - 200 - application/json;+charset=utf-8 15.8203ms 
+2023-08-23 11:46:35.1178||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - 
+2023-08-23 11:46:35.1178||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-23 11:46:35.1178||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CourceImg", controller = "Cource"}. Executing controller action with signature System.Object CourceImg(Int32) on controller OnlineEducation.Controllers.CourceController (OnlineEducation.Api). 
+2023-08-23 11:46:35.1513||INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__courceId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[CategoryId], [t0].[Description], [t0].[Name], [t1].[Id], [t1].[CourceId], [t1].[FirstImg], [t1].[Img]
+FROM (
+    SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Description], [t].[Name]
+    FROM [tblCource] AS [t]
+    WHERE [t].[Id] = @__courceId_0
+) AS [t0]
+LEFT JOIN [tblCourceImg] AS [t1] ON [t0].[Id] = [t1].[CourceId]
+ORDER BY [t0].[Id] 
+2023-08-23 11:46:35.1513||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[OnlineEducation.Model.Cource, OnlineEducation.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-23 11:46:35.1513||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api) in 33.5438ms 
+2023-08-23 11:46:35.1513||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'OnlineEducation.Controllers.CourceController.CourceImg (OnlineEducation.Api)' 
+2023-08-23 11:46:35.1513||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7068/api/Cource/CourceImg/6 - - - 200 - application/json;+charset=utf-8 34.5885ms 
