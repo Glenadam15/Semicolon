@@ -11,6 +11,8 @@ namespace OnlineEducation.Web.Controllers
 	    public IActionResult Index() => View();
         public IActionResult About() => View();
         public IActionResult Contact() => View();
+        public IActionResult Courses() => View();
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
