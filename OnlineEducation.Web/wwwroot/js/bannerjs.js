@@ -42,6 +42,6 @@ $(function () {
 		});
 	}
 
-	var SlaytOynat = setInterval("$.AutoSlideChange()", 7000);
+	var SlaytOynat = setInterval("$.AutoSlideChange()", 5000);
 });
 	
