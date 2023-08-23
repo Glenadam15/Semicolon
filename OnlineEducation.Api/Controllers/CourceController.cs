@@ -74,7 +74,7 @@ namespace OnlineEducation.Controllers
 	        };
         }
 
-        [HttpGet("CourceImg")]
+        [HttpGet("CourceImg/{id}")]
 
         public dynamic CourceImg(int id)
         {

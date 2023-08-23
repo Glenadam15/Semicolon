@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kF+L+us6UokGjb4HeIDOgzMWdLBvUknXgvtbvwamhbo=",
+  "Hash": "mVJz3nTKZvEsFLQ1P8cnMaa+DOWIXlK2uJOBCj+vXo8=",
   "Source": "OnlineEducation.Web",
   "BasePath": "_content/OnlineEducation.Web",
   "Mode": "Default",
@@ -340,12 +340,12 @@
       "OriginalItemSpec": "wwwroot\\img\\logo_1.png"
     },
     {
-      "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\category.js",
+      "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\Category.js",
       "SourceId": "OnlineEducation.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\",
       "BasePath": "_content/OnlineEducation.Web",
-      "RelativePath": "js/admin/category.js",
+      "RelativePath": "js/admin/Category.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\admin\\category.js"
+      "OriginalItemSpec": "wwwroot\\js\\admin\\Category.js"
     },
     {
-      "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\role.js",
+      "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\admin\\Role.js",
       "SourceId": "OnlineEducation.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\",
       "BasePath": "_content/OnlineEducation.Web",
-      "RelativePath": "js/admin/role.js",
+      "RelativePath": "js/admin/Role.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,7 +371,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\admin\\role.js"
+      "OriginalItemSpec": "wwwroot\\js\\admin\\Role.js"
     },
     {
       "Identity": "D:\\Fork\\Semicolon\\OnlineEducation.Web\\wwwroot\\js\\bannerjs.js",

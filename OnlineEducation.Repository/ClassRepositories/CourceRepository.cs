@@ -19,7 +19,7 @@ public class CourceRepository : RepositoryBase<Cource>
 
     public Cource CourceById(int courceId)
     {
-	    Cource cource = (from c in RepositoryContext.Cources.Include(a => a.CourceImg)
+	    Cource cource = (from c in RepositoryContext.Cources.Include(a => a.CourceImgs)
 		    where c.Id == courceId
 		    select c).SingleOrDefault<Cource>();
 	    return cource;
