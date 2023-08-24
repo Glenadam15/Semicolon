@@ -9,8 +9,7 @@ function GetRoles() {
         for (var i = 0; i < arr.length; i++) {
             html += `<tr>`;
             html += `<td>${arr[i].id}</td><td>${arr[i].name}</td>`;
-            html += `<td><button type="button" class="btn btn-outline-danger" onclick = 'RoleDelete(${arr[i].id})'>Delete</button>
-            <button type="button" class="btn btn-outline-primary" onclick= 'RoleUpdate(${arr[i].id},"${arr[i].name}")'>Update</button></td>`;
+            html += `<td><i class="bi bi-trash text-danger" onclick='RoleDelete(${arr[i].id})' style="padding-right: 10px;"></i><i class="bi-pencil-square" onclick='RoleUpdate(${arr[i].id},"${arr[i].name}")'></i></td>`;
             html += `</tr>`
         }
         html += `</table>`;
