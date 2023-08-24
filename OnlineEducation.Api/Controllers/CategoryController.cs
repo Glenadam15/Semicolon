@@ -24,8 +24,7 @@ public class CategoryController : BaseController
         {
             items = repo.CategoryRepository.FindAll().ToList<Category>();
 
-            cache.Set("GetAllCategories", items, DateTimeOffset.UtcNow.AddSeconds(30));
-                
+            cache.Set("GetAllCategories", items, DateTimeOffset.UtcNow.AddHours(1));
         }
             
         return new
@@ -34,8 +33,19 @@ public class CategoryController : BaseController
             data = items
         };
     }
-    
-    [Authorize(Roles = "Admin")]
+
+    [HttpGet("GetAllCategoriesWithoutCache")]
+    public dynamic GetAllCategoriesWithoutCache()
+    {
+	    List<Category> items = repo.CategoryRepository.FindAll().ToList<Category>();
+	    return new
+	    {
+		    success = true,
+		    data = items
+	    };
+    }
+
+	[Authorize(Roles = "Admin")]
     [HttpPost("Save")]
     public dynamic Save ([FromBody] dynamic model)
     {
