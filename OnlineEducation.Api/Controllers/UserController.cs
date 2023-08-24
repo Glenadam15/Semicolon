@@ -59,8 +59,8 @@ public class UserController : BaseController
             RoleId = Enums.Roles.Student
         };
 
-        User? kullanici = repo.UserRepository.FindByCondition(k => k.Email == item.Email).SingleOrDefault<User>();
-        if (kullanici != null)
+        User? user = repo.UserRepository.FindByCondition(k => k.Email == item.Email).SingleOrDefault<User>();
+        if (user != null)
         {
             return new
             {

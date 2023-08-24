@@ -9,7 +9,8 @@ function GetCategories() {
         for (var i = 0; i < arr.length; i++) {
             html += `<tr>`;
             html += `<td>${arr[i].id}</td><td>${arr[i].name}</td>`;
-            html += `<td><i class="bi bi-trash text-danger" onclick='CategoryDelete(${arr[i].id})' style="padding-right: 10px;"></i><i class="bi-pencil-square" onclick='CategoryUpdate(${arr[i].id},"${arr[i].name}")'></i></td>`;
+            html += `<td><button type="button" class="btn btn-outline-danger" onclick = 'CategoryDelete(${arr[i].id})'>Delete</button>
+            <button type="button" class="btn btn-outline-primary" onclick= 'CategoryUpdate(${arr[i].id},"${arr[i].name}")'>Update</button></td>`;
             html += `</tr>`
         }
         html += `</table>`;
