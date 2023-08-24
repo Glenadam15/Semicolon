@@ -9,7 +9,7 @@ function GetCategories() {
         for (var i = 0; i < arr.length; i++) {
             html += `<tr>`;
             html += `<td>${arr[i].id}</td><td>${arr[i].name}</td>`;
-            html += `<td><i class="bi bi-trash text-danger" onclick='CategoryDelete(${arr[i].id})'></i><i class="bi bi-pencil-square" onclick='CategoryUpdate(${arr[i].id},"${arr[i].name}")'></i></td>`;
+            html += `<td><i class="bi bi-trash text-danger" onclick='CategoryDelete(${arr[i].id})'></i><i class="bi-pencil-square" onclick='CategoryUpdate(${arr[i].id},"${arr[i].name}")'></i></td>`;
             html += `</tr>`
         }
         html += `</table>`;
@@ -44,7 +44,7 @@ function CategoryDelete(id) {
     });
 }
 
-function CatgoryUpdate(id, name) {
+function CategoryUpdate(id, name) {
     selectedCategoryId = id;
     $("#inputCategoryName").val(name);
     $("#categoryModal").modal("show");
