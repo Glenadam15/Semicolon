@@ -9,7 +9,7 @@ function GetRoles() {
         for (var i = 0; i < arr.length; i++) {
             html += `<tr>`;
             html += `<td>${arr[i].id}</td><td>${arr[i].name}</td>`;
-            html += `<td><i class="bi bi-trash text-danger" onclick='RoleDelete(${arr[i].id})'></i><i class="bi bi-pencil-square" onclick='RoleUpdate(${arr[i].id},"${arr[i].ad}")'></i></td>`;
+            html += `<td><i class="bi bi-trash text-danger" onclick='RoleDelete(${arr[i].id})' style="padding-right: 10px;"></i><i class="bi-pencil-square" onclick='RoleUpdate(${arr[i].id},"${arr[i].name}")'></i></td>`;
             html += `</tr>`
         }
         html += `</table>`;
@@ -18,13 +18,13 @@ function GetRoles() {
     });
 }
 
-let selectedRoleId = 0;
 
 function NewRole() {
     selectedRoleId = 0;
     $("#inputRoleName").val("");
     $("#roleModal").modal("show");
 }
+
 function RoleSave() {
     var role = {
         Id: selectedRoleId,
@@ -35,7 +35,6 @@ function RoleSave() {
         $("#roleModal").modal("hide");
     });
 }
-
 
 function RoleDelete(id) {
     Delete(`Role/Delete?id=${id}`, (data) => {
